@@ -32,3 +32,11 @@
     </li>
 </ul>
 
+<h2>Site owners Goals</h2>
+
+<ul>
+   <li>To have an appealing website where Arduino users can check their knowledge.</li>
+   <li>To have a website that is easy to navigate and has a lot of functionality so that the user can enjoy the quiz.</li>
+   <li>Update the quiz questions regularly, as it may prompt the user to return to the website.</li>
+</ul>
+
