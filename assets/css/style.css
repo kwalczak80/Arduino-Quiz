@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Teko:wght@600&display=swap');
+
+/*General settings*/
+
+:root {
+    font-size: 62.5%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  body {
+    color: rgb(46, 46, 46);
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  
+  .main-container>* {
+    width: 100%;
+  }
+  
+  .container {
+    background: linear-gradient(to bottom, rgb(94, 243, 228) 0%, rgb(106, 182, 243) 100%);
+    border-radius: 0.5rem;
+  }
