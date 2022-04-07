@@ -12,7 +12,8 @@
 <ul>
    <li>Visually appealing website.</li>
    <li>The website has to be easy and intuitive to use.</li>
-   <li>The website has to work well on different screen sizes such as mobile phones, tablets, and desktops.</li>
+   <li>The website has to work well on different screen sizes, such as mobile phones, tablets, and desktops.</li>
    <li>The quiz rules are clearly explained.</li>
-   <li>The quiz progress is displayed on the screen in appropriate form.</li>
+   <li>The quiz progress is displayed on the screen in the appropriate form.</li>
 </ul>
+
