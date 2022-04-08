@@ -70,6 +70,7 @@
          <li>I initially intended to use a picture as the background for the page. Nevertheless, since the quiz is about electronic devices, I dropped this idea as I wanted to have a more attractive website. Thus, I decided to implement an animated background that is more relevant to the website's topic. After doing some research, I found an interesting video showing some sort of motherboard electronic circuit with animated blue lines indicating the flow of electric current. Since this video is aligned with the website topic and at the same time does not distract the user from other parts of the website, I decided to use it as a looped video background for the website.</li>
       </ul>
 </ul>
+
  <ul>
       <li><strong>Colour Scheme</strong></li>
       <ul>
@@ -79,11 +80,19 @@
 The contrast checker was used to make sure that the contrast is sufficient and that there are no issues with the website readability.
          </li>
 
-   ![Gradient background](assets/images/gradient.PNG "Gradient Background")
+![Gradient background](assets/images/gradient.PNG "Gradient Background")
          </ul>
-      <li>Text color</li>
-      
-      </ul>
+      <li>Colour Scheme</li>
+![Scheme colours](assets/images/main-website-colors.PNG "Main website colors")
+         <ul>
+            <li>#1E1E1E – color was used for all text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
+            <li>#17608A - color was used as a background for all the buttons used on the website.</li>
+            <li>#F7F7F7 - color was used to display the text information on the buttons</li>
+            <li>#088308 - color was used to highlight correctly answered question</li>
+            <li>#D10F0F - color was used to highlight incorrectly answered question</li>
+         </ul>
 </ul>
+</ul>
+
 
 
