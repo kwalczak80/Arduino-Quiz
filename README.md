@@ -45,10 +45,9 @@
 <ul>
    <li>The Balsamiq software was to create a visual layout of the Arduino Quiz website. You can check the wireframes below.</li>
    <ul>
-      <li>The desktop wireframe welcome section can be found <a href="assets/docs/arduino-quiz-wireframe-desktop-welcome-section.pdf">here</a></li>
-      <li>The desktop wireframe quiz rules section can be found <a href="assets/docs/arduino-quiz-wireframe-desktop-quiz-rules-section.pdf">here</a></li>
-      <li>The desktop wireframe quiz section can be found <a href="assets/docs/arduino-quiz-wireframe-desktop-quiz-question-section.pdf">here</a></li>
-      <li>The desktop wireframe quiz summary section can be found <a href="assets/docs/arduino-quiz-wireframe-desktop-quiz-summary-section.pdf">here</a></li>
-    </ul>
+      <li>The desktop wireframes showing all sections can be found <a href="assets/docs/arduino-quiz-wireframe-desktop-welcome-section.pdf">here</a></li>
+      <li>The tablet/ipad wireframes showing all sections can be found <a href="assets/docs/arduino-quiz-wireframe-desktop-quiz-rules-section.pdf">here</a></li>
+      <li>The mobile wireframes showing all sections found <a href="assets/docs/arduino-quiz-wireframe-desktop-quiz-question-section.pdf">here</a></li>
+   </ul>
 </ul>
 <hr>
