@@ -45,9 +45,9 @@
 <ul>
    <li>The Balsamiq software was to create a visual layout of the Arduino Quiz website. You can check the wireframes below.</li>
    <ul>
-      <li>The desktop wireframes showing all sections can be found <a href="assets/docs/arduino-quiz-wireframe-for-desktop-all-sections.pdf">here</a></li>
-      <li>The tablet/ipad wireframes showing all sections can be found <a href="assets/docs/arduino-quiz-wireframe-for-tablet-all-sections.pdf">here</a></li>
-      <li>The mobile wireframes showing all sections found <a href="assets/docs/arduino-quiz-wireframe-for-mobile-all-sections.pdf">here</a></li>
+      <li>The desktop wireframes showing all the sections can be found <a href="assets/docs/arduino-quiz-wireframe-for-desktop-all-sections.pdf">here</a></li>
+      <li>The tablet/ipad wireframes showing the all sections can be found <a href="assets/docs/arduino-quiz-wireframe-for-tablet-all-sections.pdf">here</a></li>
+      <li>The mobile wireframes showing all the sections found <a href="assets/docs/arduino-quiz-wireframe-for-mobile-all-sections.pdf">here</a></li>
    </ul>
 </ul>
 <hr>
@@ -81,6 +81,8 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 
    ![Gradient background](assets/images/gradient.PNG "Gradient Background")
          </ul>
+      <li>Text color</li>
+      
       </ul>
 </ul>
 
