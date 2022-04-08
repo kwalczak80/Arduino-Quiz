@@ -70,3 +70,18 @@
          <li>I initially intended to use a picture as the background for the page. Nevertheless, since the quiz is about electronic devices, I dropped this idea as I wanted to have a more attractive website. Thus, I decided to implement an animated background that is more relevant to the website's topic. After doing some research, I found an interesting video showing some sort of motherboard electronic circuit with animated blue lines indicating the flow of electric current. Since this video is aligned with the website topic and at the same time does not distract the user from other parts of the website, I decided to use it as a looped video background for the website.</li>
       </ul>
 </ul>
+ <ul>
+      <li><strong>Colour Scheme</strong></li>
+      <ul>
+      <li>Gradient</li>
+         <ul>
+         <li>I used <a href="https://https://cssgradient.io/">CSS gradient</a> website to create a gradient background for my project. This gradient is used as a background for the quiz information being displayed on the page.
+The contrast checker was used to make sure that the contrast is sufficient and that there are no issues with the website readability.
+         </li>
+
+   ![Gradient background](assets/images/gradient.PNG "Gradient Background")
+         </ul>
+      </ul>
+</ul>
+
+
