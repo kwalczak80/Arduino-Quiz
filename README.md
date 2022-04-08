@@ -51,3 +51,15 @@
    </ul>
 </ul>
 <hr>
+<hr>
+
+# **Design**
+   <ul>
+      <li><strong>Typography</strong></li>
+      <ul>
+         <li>I visited the <a href="https://fonts.google.com/">Google fonts </a> website to explore available font options for my project. After consideration, three different font types were chosen to be used in different sections of the website.</li>
+         <li>The <a href="https://fonts.google.com/?query=teko">Teko</a> font is used to display the quiz name.</li>
+         <li>The <a href="https://fonts.google.com/?query=Roboto+Condensed+">Roboto Condensed</a> font is used to display the quiz questions.</li>
+         <li>The <a href="https://fonts.google.com/?query=Roboto">Roboto</a> font is used to display all other text information.</li>
+      </ul>
+   </ul>
