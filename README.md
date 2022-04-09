@@ -51,7 +51,6 @@
    </ul>
 </ul>
 <hr>
-<hr>
 
 # **Design**
    <ul>
@@ -85,14 +84,16 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>Colour Scheme</li>
 ![Scheme colours](assets/images/main-website-colors.PNG "Main website colors")
          <ul>
-            <li>#1E1E1E – color was used for all text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
+            <li>#1E1E1E – color was used for all the text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
             <li>#17608A - color was used as a background for all the buttons used on the website.</li>
             <li>#F7F7F7 - color was used to display the text information on the buttons</li>
             <li>#088308 - color was used to highlight correctly answered question</li>
             <li>#D10F0F - color was used to highlight incorrectly answered question</li>
          </ul>
-</ul>
+      </ul>
 </ul>
 
+# **Site Structure**
+<p>This website is designed to be a one-page site. Based on the user activity, relevant sections of the website are being shown or hidden. This is done when the user clicks on the button in order to proceed through the quiz. To start the quiz user must first enter their name which will be then populated on the welcome screen where the rules of the quiz are displayed. Once the user is familiar with the rules, they can hit the “I understand. Let’s play” button to start the quiz. Questions are presented one by one with the current question number shown on the screen. In order to move to the next question, the current question must be answered. The scoring area helps the user to track which questions were answered correctly and which were not. Upon completion of the quiz, a summary of correctly answered questions is displayed on the screen. At this point, the user has two choices; to do the quiz again by clicking on the “Try again” button or to visit the Arduino official website by clicking on the Arduino icon. This will open the Arduino official website in a new window.</p>
 
 
