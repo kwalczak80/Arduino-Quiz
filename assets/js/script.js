@@ -80,22 +80,22 @@ const data = [{
     correct: 'c',
 },
 ]
-const homeRef = document.getElementById('home');
-const playerNameRef = document.getElementById('playername');
-const quizRulesRef = document.getElementById('quiz-rules');
-const quizStartButtonRef = document.getElementById('quiz-start');
-const displayQuestionNumberRef = document.getElementById('question-number');
-const quizSummaryRef = document.getElementById('summary');
-const quizResultsRef = document.getElementById('quiz-summary');
-const quizRef = document.getElementById('quiz');
-const answerElsRef = document.querySelectorAll('.answer');
-const questionElRef = document.getElementById('question');
-const optionARef = document.getElementById('option-a');
-const optionBRef = document.getElementById('option-b');
-const optionCRef = document.getElementById('option-c');
-const optionDRef = document.getElementById('option-d');
-const submitBtnRef = document.getElementById('submit');
-const form = document.getElementById('playername-form');
+const homeRef = document.querySelector('#home');
+const playerNameRef = document.querySelector('#playername');
+const quizRulesRef = document.querySelector('#quiz-rules');
+const quizStartButtonRef = document.querySelector('#quiz-start');
+const displayQuestionNumberRef = document.querySelector('#question-number');
+const quizSummaryRef = document.querySelector('#summary');
+const quizResultsRef = document.querySelector('#quiz-summary');
+const quizRef = document.querySelector('#quiz');
+const answerRef = document.querySelectorAll('.answer');
+const questionRef = document.querySelector('#question');
+const optionA = document.querySelector('#option-a');
+const optionB = document.querySelector('#option-b');
+const optionC = document.querySelector('#option-c');
+const optionD = document.querySelector('#option-d');
+const submitBtnRef = document.querySelector('#submit');
+const form = document.querySelector('#playername-form');
 
 /* Variables to track quiz progress */
 
@@ -113,7 +113,7 @@ let randomArrayItems = shuffleArray(data);
         console.log(event);
         homeRef.style.display = 'none';
     quizRulesRef.classList.remove('hide-content');
-    document.getElementById('player').innerHTML = "Hi " + playerName.value;
+    document.querySelector('#player').innerHTML = "Hi " + playerName.value;
     console.log('Username', playerName.value);
     event.preventDefault();
 });
@@ -124,6 +124,25 @@ quizStartButtonRef.addEventListener('click', function () {
     quizRulesRef.classList.add('hide-content');
     quizRef.classList.remove('hide-content');
 });
+
+loadQuiz();
+
+function loadQuiz() {
+
+    deselectAnswers(); // deselect all answers
+
+    const currentQuizData = randomArrayItems[currentQuiz];
+
+    questionRef.innerText = currentQuizData.question;
+    optionA.innerText = currentQuizData.a;
+    optionB.innerText = currentQuizData.b;
+    optionC.innerText = currentQuizData.c;
+    optionD.innerText = currentQuizData.d;
+
+    displayQuestionNumberRef.innerHTML = `
+    <h1>Question ${questionNumber} of ${data.length}</h1>
+    `
+}
 
 /* credit to https://www.youtube.com/watch?v=LxQK4F0xwmU to randomize array elements*/
 
@@ -136,3 +155,11 @@ function shuffleArray(arrayToShuffle) {
     }
     return arrayToShuffle;
 }
+
+/*Function to deselect all answers after the quiestion is being displayed*/
+
+function deselectAnswers() {
+    answerEls.forEach((answerEl) => (
+        answerEl.checked = false))
+}
+
