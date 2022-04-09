@@ -147,6 +147,12 @@ input#playername {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+#submit-button:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(49, 100, 109, 0.6);
+  transition: transform 160ms;
+  transform: scale(1.03);
+}
+
   /*Background video*/
   #background-video {
     position: fixed;
