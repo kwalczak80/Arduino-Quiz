@@ -193,8 +193,17 @@ button:hover {
   }
 
 /* Media queries */
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 769px) {
   .main-container {
     height: 100vh;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0.5rem;
+  }
+  /*.main-container {
+    height: 100vh;
+  }*/
 }
