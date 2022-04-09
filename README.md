@@ -130,3 +130,5 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 ![Quiz questions](assets/images/quiz-section.PNG "Quiz questions")
       <li>The score area provides information to the user about their progress through the quiz. If the question they answered is correct the count of correctly answered questions will increase (highlighted in green). If the question is answered incorrectly the count of incorrectly answered will increase (highlighted in red). </li>
 ![Score area](assets/images/score-area.PNG "Score area")
+      <li>Note that at the beginning of the quiz when no question is answered yet, the quiz results text has the inherited text color. After the first question is answered by the user the quiz results text color will automatically change to green and red respectively.</li>
+![Score area inherit text color](assets/images/score-area-inherit-text-color.PNG "Score area inherit text color")
