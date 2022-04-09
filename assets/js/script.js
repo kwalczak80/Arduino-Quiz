@@ -80,21 +80,22 @@ const data = [{
     correct: 'c',
 },
 ]
-
-const playerNameRef = document.querySelector('playername');
-const quizRulesRef = document.querySelector('quiz-rules');
-const quizStartButtonRef = document.querySelector('quiz-start');
-const displayQuestionNumberRef = document.querySelector('question-number');
-const quizSummaryRef = document.querySelector('summary');
-const quizResultsRef = document.querySelector('quiz-summary');
-const quizRef = document.querySelector("quiz");
-const answerElsRef = document.querySelectorAll(".answer");
-const questionElRef = document.querySelector("question");
-const optionARef = document.querySelector("option-a");
-const optionBRef = document.querySelector("option-b");
-const optionCRef = document.querySelector("option-c");
-const optionDRef = document.querySelector("option-d");
-const submitBtnRef = document.querySelector("submit");
+const homeRef = document.getElementById('home');
+const playerNameRef = document.getElementById('playername');
+const quizRulesRef = document.getElementById('quiz-rules');
+const quizStartButtonRef = document.getElementById('quiz-start');
+const displayQuestionNumberRef = document.getElementById('question-number');
+const quizSummaryRef = document.getElementById('summary');
+const quizResultsRef = document.getElementById('quiz-summary');
+const quizRef = document.getElementById('quiz');
+const answerElsRef = document.querySelectorAll('.answer');
+const questionElRef = document.getElementById('question');
+const optionARef = document.getElementById('option-a');
+const optionBRef = document.getElementById('option-b');
+const optionCRef = document.getElementById('option-c');
+const optionDRef = document.getElementById('option-d');
+const submitBtnRef = document.getElementById('submit');
+const form = document.getElementById('playername-form');
 
 /* Variables to track quiz progress */
 
@@ -107,6 +108,22 @@ let incorrectAnswers = 0;
 /* Set array with randomized questions for each quiz - question will not be displayed in the same sequence as in previous quiz*/
 
 let randomArrayItems = shuffleArray(data);
+
+    form.addEventListener('submit', function (event) {
+        console.log(event);
+        homeRef.style.display = 'none';
+    quizRulesRef.classList.remove('hide-content');
+    document.getElementById('player').innerHTML = "Hi " + playerName.value;
+    console.log('Username', playerName.value);
+    event.preventDefault();
+});
+
+/* Add event listener to the submit button to start quiz */ 
+
+quizStartButtonRef.addEventListener('click', function () {
+    quizRulesRef.classList.add('hide-content');
+    quizRef.classList.remove('hide-content');
+});
 
 /* credit to https://www.youtube.com/watch?v=LxQK4F0xwmU to randomize array elements*/
 
