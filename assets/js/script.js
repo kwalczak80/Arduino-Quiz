@@ -81,17 +81,17 @@ const data = [{
 },
 ]
 
-const playerNameRef = document.getElementById('playername');
-const quizRulesRef = document.getElementById('quiz-rules');
-const quizStartButtonRef = document.getElementById('quiz-start');
-const displayQuestionNumberRef = document.getElementById('question-number');
-const quizSummaryRef = document.getElementById('summary');
-const quizResultsRef = document.getElementById('quiz-summary');
-const quizRef = document.getElementById("quiz");
+const playerNameRef = document.querySelector('playername');
+const quizRulesRef = document.querySelector('quiz-rules');
+const quizStartButtonRef = document.querySelector('quiz-start');
+const displayQuestionNumberRef = document.querySelector('question-number');
+const quizSummaryRef = document.querySelector('summary');
+const quizResultsRef = document.querySelector('quiz-summary');
+const quizRef = document.querySelector("quiz");
 const answerElsRef = document.querySelectorAll(".answer");
-const questionElRef = document.getElementById("question");
-const optionARef = document.getElementById("option-a");
-const optionBRef = document.getElementById("option-b");
-const optionCRef = document.getElementById("option-c");
-const optionDRef = document.getElementById("option-d");
-const submitBtnRef = document.getElementById("submit");
+const questionElRef = document.querySelector("question");
+const optionARef = document.querySelector("option-a");
+const optionBRef = document.querySelector("option-b");
+const optionCRef = document.querySelector("option-c");
+const optionDRef = document.querySelector("option-d");
+const submitBtnRef = document.querySelector("submit");
