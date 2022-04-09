@@ -151,3 +151,16 @@ The contrast checker was used to make sure that the contrast is sufficient and t
    <li>Visit the official Arduino website where the user can find supportive information related to the questions asked in this quiz.</li>
    </ul>
    </ul>
+
+![Quiz summary](assets/images/quiz-summary-section.PNG "Quiz summary")
+
+   <li><strong>Features to be implemented</strong></li>
+   <ul>
+      <li>Introduce different levels of the quiz i.e., easy, moderate, expert – where users with different experiences can choose the quiz they want to take.</li>
+      <li>To have a minimum of 30 questions for each category mentioned above.</li>
+      <li>To have all quiz questions in separate files (easier maintenance, update, etc.)</li>
+      <li>To have local storage implemented to save the user quiz results along with the leader board section which can show the highest results.</li>
+      <li>To have a functionality where the question-related picture is displayed on the screen. See the example below.</li>
+
+![Feature to be implemented](assets/images/feature-to-be-implemented.PNG "Feature to be implemented")    
+   </ul>
