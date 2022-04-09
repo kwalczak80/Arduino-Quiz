@@ -109,10 +109,23 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 ![Welcome section](assets/images/welcome-section.PNG "Welcome section")
       <li><strong>Quiz rules</strong></li>
       <ul>
-      <li>To personalize the user experience the section with quiz rules is displayed using the user name entered previously.</li>
+      <li>To personalize the user experience the section with quiz rules is displayed using the user name entered in welcome screen.</li>
       <li>The quiz rules are clearly explained to the user and are grouped as a list.</li>
       <li>Once the user is familiar with the quiz rules they are invited to click on the <strong>“I understand. Let’s play”</strong> button in order to start the quiz. </li>
       </ul>
+      
+![Quiz rules](assets/images/quiz-rules-section.PNG "Quiz rules")
+      <li><strong>The Quiz section</strong></li>
+      <ul>
+      <li>The quiz section screen is divided into three subsections:</li>
+         <ul>
+         <li>The top section is displaying the current question number.</li>
+         <li>The middle section is displaying the current question with four possible answers.</li>
+         <li>The bottom section is displaying information about correctly or incorrectly answered questions.</li>
+         </ul>
 
-![Quiz rules](assets/images/quiz-rules.PNG "Quiz rules")
+![Quiz](assets/images/quiz-section.PNG "Quiz")
+      <li></li>
+      <li></li>
+      </ul>
 
