@@ -171,3 +171,10 @@ function getSelected() {
     })
     return answer;
 }
+
+function updateQuizStatistics () {
+    document.querySelector('#correct-answers').innerHTML = correctAnswers;
+    document.querySelector('#correct-answers').style.color = "green";
+    document.querySelector('#incorrect-answers').innerHTML = incorrectAnswers;
+    document.querySelector('#incorrect-answers').style.color = "Red";
+}

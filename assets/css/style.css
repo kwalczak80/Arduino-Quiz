@@ -153,6 +153,15 @@ input#playername {
   transform: scale(1.03);
 }
 
+/*Score area*/
+#score-area {
+  justify-content: space-around;
+  font-size: 2.5rem;
+  border-top: 2px solid rgb(88, 88, 88);
+  align-items: center;
+  margin: 1rem;
+}
+
   /*Background video*/
   #background-video {
     position: fixed;
