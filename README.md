@@ -113,19 +113,20 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>The quiz rules are clearly explained to the user and are grouped as a list.</li>
       <li>Once the user is familiar with the quiz rules they are invited to click on the <strong>“I understand. Let’s play”</strong> button in order to start the quiz. </li>
       </ul>
-      
+
 ![Quiz rules](assets/images/quiz-rules-section.PNG "Quiz rules")
       <li><strong>The Quiz section</strong></li>
       <ul>
       <li>The quiz section screen is divided into three subsections:</li>
          <ul>
          <li>The top section is displaying the current question number.</li>
-         <li>The middle section is displaying the current question with four possible answers.</li>
+         <li>The middle section is displaying the current question with four possible answers and the submit button.</li>
          <li>The bottom section is displaying information about correctly or incorrectly answered questions.</li>
          </ul>
-
-![Quiz](assets/images/quiz-section.PNG "Quiz")
-      <li></li>
-      <li></li>
+      <li>The quiz is navigated question by question.</li>
+      <li>Each question must be answered to move to the next question.</li>
+      <li>To answer the question the user must select their choice by using the radio button and click the <strong>Submit</strong> button in order to submit the answer.</li>
       </ul>
-
+![Quiz questions](assets/images/quiz-section.PNG "Quiz questions")
+      <li>The score area provides information to the user about their progress through the quiz. If the question they answered is correct the count of correctly answered questions will increase (highlighted in green). If the question is answered incorrectly the count of incorrectly answered will increase (highlighted in red). </li>
+![Score area](assets/images/score-area.PNG "Score area")
