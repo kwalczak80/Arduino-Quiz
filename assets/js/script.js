@@ -172,7 +172,7 @@ function getSelected() {
     return answer;
 }
 
-submitBtn.addEventListener("click", () => {
+submitBtnRef.addEventListener("click", () => {
     const answer = getSelected();
     if (answer) {
         if (answer === data[currentQuiz].correct) {
