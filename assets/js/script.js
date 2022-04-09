@@ -95,3 +95,11 @@ const optionBRef = document.querySelector("option-b");
 const optionCRef = document.querySelector("option-c");
 const optionDRef = document.querySelector("option-d");
 const submitBtnRef = document.querySelector("submit");
+
+/* Variables to track quiz progress */
+
+let questionNumber = 1;
+let currentQuiz = 0;
+let score = 0;
+let correctAnswers = 0;
+let incorrectAnswers = 0;
