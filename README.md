@@ -133,6 +133,11 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>Note that at the beginning of the quiz when no question is answered yet, the quiz results text has the inherited text color. After the first question is answered by the user the quiz results text color will automatically change to green and red respectively.</li>
 ![Score area inherit text color](assets/images/score-area-inherit-text-color.PNG "Score area inherit text color")
 
-   <li>The score area has a different layout depending on which screen size the website is displayed. Therefore, the score results can be displayed in a row on bigger screens (see above) or in a column on smaller screens (mobile phones) as shown below</li>
+   <li>The score area has a different layout depending on which screen size the website is displayed. Therefore, the score results can be displayed in a row on bigger screens (see above) or in a column on smaller screens (mobile phones) as shown below.</li>
 
 ![Score area layout on smaller screens](assets/images/score-area-layout-on-smaller-screens.PNG "Score area layout on smaller screens")
+
+   <li><strong>Randomized quiz questions</strong></li>
+   <ul>
+   <li>Each time when the new quiz starts the questions are displayed randomly from the list. This is done to make sure that the user will not memorize the answers from the previous quiz. The special Java script function is responsible to randomize questions for each quiz.</li>
+   </ul>
