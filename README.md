@@ -141,3 +141,13 @@ The contrast checker was used to make sure that the contrast is sufficient and t
    <ul>
    <li>Each time when the new quiz starts the questions are displayed randomly from the list. This is done to make sure that the user will not memorize the answers from the previous quiz. The special Java script function is responsible to randomize questions for each quiz.</li>
    </ul>
+   <li><strong>Quiz completion</strong></li>
+   <ul>
+   <li>The quiz will end once the 10 questions are answered.</li>
+   <li>The summary of correctly answered questions will be displayed on the screen.</li>
+   <li>The user has two choices at this stage:</li>
+   <ul>
+   <li>To take the quiz again if they want to improve their score – the “Try again” button will start a new quiz.</li>
+   <li>Visit the official Arduino website where the user can find supportive information related to the questions asked in this quiz.</li>
+   </ul>
+   </ul>
