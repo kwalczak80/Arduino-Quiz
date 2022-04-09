@@ -96,4 +96,23 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 # **Site Structure**
 <p>This website is designed to be a one-page site. Based on the user activity, relevant sections of the website are being shown or hidden. This is done when the user clicks on the button in order to proceed through the quiz. To start the quiz user must first enter their name which will be then populated on the welcome screen where the rules of the quiz are displayed. Once the user is familiar with the rules, they can hit the “I understand. Let’s play” button to start the quiz. Questions are presented one by one with the current question number shown on the screen. In order to move to the next question, the current question must be answered. The scoring area helps the user to track which questions were answered correctly and which were not. Upon completion of the quiz, a summary of correctly answered questions is displayed on the screen. At this point, the user has two choices; to do the quiz again by clicking on the “Try again” button or to visit the Arduino official website by clicking on the Arduino icon. This will open the Arduino official website in a new window.</p>
 
+# **Features**
+   <ul>
+      <li><strong>Welcome section</strong></li>
+      <ul>
+      <li>At the beginning of the quiz, the welcome section is displayed on the screen informing the user about the quiz name.</li>
+      <li>The user is asked to enter their name before the quiz can commence. </li>
+      <li>Only uppercase and lowercase letters and spaces are accepted when entering the user name. Special characters, numbers, etc. will not be accepted.</li>
+      <li>Once the user name is entered and submit button is clicked, the current section will no longer be visible.</li>
+      </ul>
+
+![Welcome section](assets/images/welcome-section.PNG "Welcome section")
+      <li><strong>Quiz rules</strong></li>
+      <ul>
+      <li>To personalize the user experience the section with quiz rules is displayed using the user name entered previously.</li>
+      <li>The quiz rules are clearly explained to the user and are grouped as a list.</li>
+      <li>Once the user is familiar with the quiz rules they are invited to click on the <strong>“I understand. Let’s play”</strong> button in order to start the quiz. </li>
+      </ul>
+
+![Quiz rules](assets/images/quiz-rules.PNG "Quiz rules")
 
