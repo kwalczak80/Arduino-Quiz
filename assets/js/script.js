@@ -103,3 +103,19 @@ let currentQuiz = 0;
 let score = 0;
 let correctAnswers = 0;
 let incorrectAnswers = 0;
+
+/* Set array with randomized questions for each quiz - question will not be displayed in the same sequence as in previous quiz*/
+
+let randomArrayItems = shuffleArray(data);
+
+/* credit to https://www.youtube.com/watch?v=LxQK4F0xwmU to randomize array elements*/
+
+function shuffleArray(arrayToShuffle) {
+    for (let i = arrayToShuffle.length - 1; i > 0; i--) {
+        let randomPosition = Math.floor(Math.random() * (i + 1));
+        let temp = arrayToShuffle[i];
+        arrayToShuffle[i] = arrayToShuffle[randomPosition];
+        arrayToShuffle[randomPosition] = temp;
+    }
+    return arrayToShuffle;
+}
