@@ -130,20 +130,14 @@ quizStartButtonRef.addEventListener('click', function () {
 loadQuiz();
 
 function loadQuiz() {
-
     deselectAnswers();
-
     const currentQuizData = randomArrayItems[currentQuiz];
-
     questionRef.innerText = currentQuizData.question;
     optionARef.innerText = currentQuizData.a;
     optionBRef.innerText = currentQuizData.b;
     optionCRef.innerText = currentQuizData.c;
     optionDRef.innerText = currentQuizData.d;
-
-    displayQuestionNumberRef.innerHTML = `
-    <h1>Question ${questionNumber} of ${data.length}</h1>
-    `
+    displayQuestionNumberRef.innerHTML = `<h1>Question ${questionNumber} of ${data.length}</h1>`
 }
 
 /* credit to https://www.youtube.com/watch?v=LxQK4F0xwmU to randomize array elements*/
