@@ -80,3 +80,18 @@ const data = [{
     correct: 'c',
 },
 ]
+
+const playerName = document.getElementById('playername');
+const quizRules = document.getElementById('quiz-rules');
+const quizStartButton = document.getElementById('quiz-start');
+const displayQuestionNumber = document.getElementById('question-number');
+const quizSummary = document.getElementById('summary');
+const quizResults = document.getElementById('quiz-summary');
+const quiz = document.getElementById("quiz");
+const answerEls = document.querySelectorAll(".answer");
+const questionEl = document.getElementById("question");
+const optionA = document.getElementById("option-a");
+const optionB = document.getElementById("option-b");
+const optionC = document.getElementById("option-c");
+const optionD = document.getElementById("option-d");
+const submitBtn = document.getElementById("submit");
