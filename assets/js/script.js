@@ -187,9 +187,9 @@ submitBtnRef.addEventListener("click", () => {
         if (currentQuiz < data.length) {
             loadQuiz();
         } else {
-            quizSummary.classList.remove('hide-content');
-            quiz.classList.add('hide-content');
-            quizResults.innerHTML = `
+            quizSummaryRef.classList.remove('hide-content');
+            quizRef.classList.add('hide-content');
+            quizResultsRef.innerHTML = `
           <h2>You have answered ${score} of ${data.length} questions correctly.</h2>
 <button onclick = "location.reload()">Try again</button>
           `

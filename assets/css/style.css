@@ -178,3 +178,10 @@ button:hover {
     z-index: -1;
     overflow: hidden;
   }
+
+/* Media queries */
+@media screen and (min-width: 1025px) {
+  .main-container {
+    height: 100vh;
+  }
+}
