@@ -79,6 +79,39 @@
     padding-top: 5rem;
   }
 
+  #quiz-rules ul {
+    list-style-type: none;
+    padding: 2rem;
+  }
+  
+  ul li {
+    font-size: 2.2rem;
+    margin: 1.5rem;
+  }
+  
+  #options li {
+    margin: 2rem 0.5rem;
+  }
+  
+  ul li label {
+    cursor: pointer;
+  }
+  
+  #quiz-rules h2 {
+    margin: 0 auto;
+  }
+  
+  #quiz-rules li {
+    list-style-type: decimal;
+    padding-left: 0.5rem;
+  }
+  
+  #quiz-rules li:last-child {
+    list-style-type: none;
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
   /*Background video*/
   #background-video {
     position: fixed;
