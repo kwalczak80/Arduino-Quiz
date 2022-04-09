@@ -168,6 +168,15 @@ button:hover {
   margin: 1rem;
 }
 
+#arduino-information {
+  justify-content: space-around;
+  font-size: 2rem;
+  border-top: 2px solid rgb(88, 88, 88);
+  padding: 0.5rem;
+  align-items: center;
+  margin: 0.5rem;
+}
+
   /*Background video*/
   #background-video {
     position: fixed;
