@@ -90,10 +90,10 @@ const quizResultsRef = document.querySelector('#quiz-summary');
 const quizRef = document.querySelector('#quiz');
 const answerRef = document.querySelectorAll('.answer');
 const questionRef = document.querySelector('#question');
-const optionA = document.querySelector('#option-a');
-const optionB = document.querySelector('#option-b');
-const optionC = document.querySelector('#option-c');
-const optionD = document.querySelector('#option-d');
+const optionARef = document.querySelector('#option-a');
+const optionBRef = document.querySelector('#option-b');
+const optionCRef = document.querySelector('#option-c');
+const optionDRef = document.querySelector('#option-d');
 const submitBtnRef = document.querySelector('#submit');
 const form = document.querySelector('#playername-form');
 
@@ -136,10 +136,10 @@ function loadQuiz() {
     const currentQuizData = randomArrayItems[currentQuiz];
 
     questionRef.innerText = currentQuizData.question;
-    optionA.innerText = currentQuizData.a;
-    optionB.innerText = currentQuizData.b;
-    optionC.innerText = currentQuizData.c;
-    optionD.innerText = currentQuizData.d;
+    optionARef.innerText = currentQuizData.a;
+    optionBRef.innerText = currentQuizData.b;
+    optionCRef.innerText = currentQuizData.c;
+    optionDRef.innerText = currentQuizData.d;
 
     displayQuestionNumberRef.innerHTML = `
     <h1>Question ${questionNumber} of ${data.length}</h1>
@@ -163,4 +163,17 @@ function shuffleArray(arrayToShuffle) {
 function deselectAnswers() {
     answerRef.forEach((answerEl) => (
         answerEl.checked = false))
+}
+
+/* Function to select answer */
+
+function getSelected() {
+    let answer;
+    answerRef.forEach((answerEl) => {
+        if (answerEl.checked) {
+            answer = answerEl.id;
+            console.log(answer);
+        }
+    })
+    return answer;
 }
