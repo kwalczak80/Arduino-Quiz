@@ -177,6 +177,10 @@ button:hover {
   margin: 0.5rem;
 }
 
+#summary {
+  width: auto;
+}
+
   /*Background video*/
   #background-video {
     position: fixed;
