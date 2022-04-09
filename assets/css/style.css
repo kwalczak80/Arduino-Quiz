@@ -153,6 +153,12 @@ input#playername {
   transform: scale(1.03);
 }
 
+button:hover {
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(49, 100, 109, 0.6);
+  transition: transform 160ms;
+  transform: scale(1.03);
+}
+
 /*Score area*/
 #score-area {
   justify-content: space-around;

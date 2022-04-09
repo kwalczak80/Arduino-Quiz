@@ -172,9 +172,37 @@ function getSelected() {
     return answer;
 }
 
-function updateQuizStatistics () {
+submitBtn.addEventListener("click", () => {
+    const answer = getSelected();
+    if (answer) {
+        if (answer === data[currentQuiz].correct) {
+            score++;
+            correctAnswers++;
+        } else {
+            incorrectAnswers++;
+        }
+        currentQuiz++;
+        questionNumber++;
+        updateQuizStatistics();
+        if (currentQuiz < data.length) {
+            loadQuiz();
+        } else {
+            quizSummary.classList.remove('hide-content');
+            quiz.classList.add('hide-content');
+            quizResults.innerHTML = `
+          <h2>You have answered ${score} of ${data.length} questions correctly.</h2>
+<button onclick = "location.reload()">Try again</button>
+          `
+        }
+    }
+})
+
+/* Function to update information about correctly or incorrectly answered question */
+
+function updateQuizStatistics() {
     document.querySelector('#correct-answers').innerHTML = correctAnswers;
     document.querySelector('#correct-answers').style.color = "green";
     document.querySelector('#incorrect-answers').innerHTML = incorrectAnswers;
     document.querySelector('#incorrect-answers').style.color = "Red";
 }
+
