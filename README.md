@@ -309,6 +309,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 
    ![Lighthouse testing desktop](assets/docs/lighthouse-testing-desktop.PNG "Lighthouse testing desktop")
 </ul>
+<hr>
 
 # **Testing User Stories from the User Experience (UX) Section**
 <ul>
@@ -336,4 +337,22 @@ The contrast checker was used to make sure that the contrast is sufficient and t
    <ul>
       <li>The user can click the icon at the end of the quiz in order to visit the official Arduino website to learn more about this microcontroller.</li>
    </ul>
+</ul>
+<hr>
+
+# **Media**
+<ul>
+   <li>The video background that is used on the Arduino Quiz website was downloaded from the <a href="https://pixabay.com/videos/circuit-electronics-digital-27725/"> pixabay</a> website.</li>
+   <li>The Arduino icon used on the quiz completion page was downloaded from the <a href="https://icon-icons.com/icon/Arduino-macOS-BigSur/190380"> icon-icons</a> website.</li>
+   <li>The picture of Dual H-bridge DC Stepper Motor Driver - L298N that is used in the Features to be implemented section was downloaded from the <a href="https://www.hiclipart.com/free-transparent-background-png-clipart-fgdmw"> hiclipart</a> website.</li>
+</ul>
+<hr>
+
+# **Content**
+<ul>
+<li>The quiz questions were copied from the following websites:</li>
+<ul>
+<li><a href="https://rootsaid.com/snax_quiz/arduino-quiz-basics/"> rootsaid.com </a></li>
+<li><a href="https://quizizz.com/admin/quiz/5b755bae72a130001a4c82d1/arduino"> quizizz.com</a></li>
+</ul>
 </ul>
