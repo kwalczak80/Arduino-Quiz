@@ -165,12 +165,14 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 ![Feature to be implemented](assets/images/feature-to-be-implemented.PNG "Feature to be implemented")    
    </ul>
    <hr>
-   <li><strong>Responsiveness</strong></li>
+
+# **Responsiveness**
    <ul>
       <li>The responsive design tests were carried out manually with <a href="https://developer.chrome.com/docs/devtools">Google Chrome DevTools</a> and <a href="https://responsivedesignchecker.com/">Responsive Web Design Checker</a>. No issues were found during the tests therefore it is confirmed that this website is designed to be responsive on all device screen sizes.</li>
    </ul>
    <hr>
-   <li><strong>Technologies Used</strong></li>
+
+ # **Technologies Used**  
    <ul>
    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
       <ul>
@@ -267,6 +269,20 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>Another tool which offers more screen options to test the website responsiveness</li>
       </ul>
    </ul>
+   <hr>
 
-
+# **Testing** 
+<ul>
+<li>The website has been tested on each of these browsers and was found to work correctly:</li>
+<ul>
+<li>Chrome</li>
+<li>Firefox</li>
+<li>Opera</li>
+<li>Edge</li>
+</ul>
+<li>A variety of devices were also used to view the website, including desktops, laptops, tablets, iPhone 6s, and Google Pixel 4a.</li>
+<li>The website is fully operational and its design makes navigation easy for the user.</li>
+<li>Each section of the website has been verified as readable and easy to navigate.</li>
+</ul>
+<hr>
 
