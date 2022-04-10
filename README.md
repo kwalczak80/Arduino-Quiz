@@ -153,6 +153,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
    </ul>
 
 ![Quiz summary](assets/docs/quiz-summary-section.PNG "Quiz summary")
+![Arduino website](assets/docs/arduino-official-website.PNG "Arduino website")
 
 # **Features to be implemented**
    <ul>
