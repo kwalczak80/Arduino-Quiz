@@ -299,4 +299,41 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 ![JSHint validator check results](assets/docs/jshint-validator%20testing.PNG "JSHint validator check results")
 </ul>
 
-# **Lighthouse testing** 
+# **Lighthouse testing**
+<p>The Lighthouse tool was used to assess the website's accessibility and the results are shown below.</p>
+<ul>
+   <li>Mobile</li>
+
+   ![Lighthouse testing mobile](assets/docs/lighthouse-testing-mobile.PNG "Lighthouse testing mobile")
+   <li>Desktop</li>
+
+   ![Lighthouse testing desktop](assets/docs/lighthouse-testing-desktop.PNG "Lighthouse testing desktop")
+</ul>
+
+# **Testing User Stories from the User Experience (UX) Section**
+<ul>
+   <li>As a user, I would like to play this quiz regardless of the device screen size I'm using.</li>
+   <ul>
+      <li>The Arduino Quiz website allows the user to display its content on a wide variety of display sizes, including mobile phones, tablets, laptops, and desktops. The layout of the page can change depending on the display resolution.</li>
+   </ul>
+      <li>As a user, I would like to easily understand the quiz rules.</li>
+   <ul>
+      <li>In the welcome section, before a quiz is taken, the user is given an overview of how the quiz is to be completed.</li>
+   </ul>
+         <li>As a user, I would like to track the quiz progress.</li>
+   <ul>
+      <li>In the scoring area, the user is provided with a breakdown of correct and incorrect answers. Above the question displayed on the screen, the user can also find the number of questions they have answered so far.</li>
+   </ul>
+            <li>As a user, I would like to know when the quiz is complete.</li>
+   <ul>
+      <li>Upon entering the quiz, the user is aware that there are ten questions. Once all ten questions are answered, a quiz summary section is displayed, which indicates how many questions the user answered correctly.</li>
+   </ul>
+               <li>As a user, I would like to have a chance to retake the quiz to improve my score.</li>
+   <ul>
+      <li>If the user wishes to improve their score, they have the option to try again.</li>
+   </ul>
+                  <li>As a user, I would like to visit the official Arduino website where I can information regarding questions asked in the quiz.</li>
+   <ul>
+      <li>The user can click the icon at the end of the quiz in order to visit the official Arduino website to learn more about this microcontroller.</li>
+   </ul>
+</ul>
