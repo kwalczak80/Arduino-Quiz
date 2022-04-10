@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 /* Quiz questions */
 const data = [{
         question: "Which is the Arduino Board with most number of Pins?",
@@ -79,7 +80,7 @@ const data = [{
         d: 'General Purpose Internal Object',
         correct: 'c',
     },
-]
+];
 const homeRef = document.querySelector('#home');
 const playerNameRef = document.querySelector('#playername');
 const quizRulesRef = document.querySelector('#quiz-rules');
@@ -137,7 +138,7 @@ function loadQuiz() {
     optionBRef.innerText = currentQuizData.b;
     optionCRef.innerText = currentQuizData.c;
     optionDRef.innerText = currentQuizData.d;
-    displayQuestionNumberRef.innerHTML = `<h1>Question ${questionNumber} of ${data.length}</h1>`
+    displayQuestionNumberRef.innerHTML = `<h1>Question ${questionNumber} of ${data.length}</h1>`;
 }
 
 /* credit to https://www.youtube.com/watch?v=LxQK4F0xwmU to randomize array elements*/
@@ -152,11 +153,11 @@ function shuffleArray(arrayToShuffle) {
     return arrayToShuffle;
 }
 
-/*Function to deselect all answers after the quiestion is being displayed*/
+/*Function to deselect all answers after the question is being displayed*/
 
 function deselectAnswers() {
     answerRef.forEach((answerEl) => (
-        answerEl.checked = false))
+        answerEl.checked = false));
 }
 
 /* Function to select answer */
@@ -168,7 +169,7 @@ function getSelected() {
             answer = answerEl.id;
             console.log(answer);
         }
-    })
+    });
     return answer;
 }
 
@@ -192,10 +193,10 @@ submitBtnRef.addEventListener("click", () => {
             quizResultsRef.innerHTML = `
           <h2>You have answered ${score} of ${data.length} questions correctly.</h2>
 <button onclick = "location.reload()">Try again</button>
-          `
+          `;
         }
     }
-})
+});
 
 /* Function to update information about correctly or incorrectly answered question */
 

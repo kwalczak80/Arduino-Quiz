@@ -154,12 +154,12 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 
 ![Quiz summary](assets/images/quiz-summary-section.PNG "Quiz summary")
 
-   <li><strong>Features to be implemented</strong></li>
+# **Features to be implemented**
    <ul>
-      <li>Introduce different levels of the quiz i.e., easy, moderate, expert – where users with different experiences can choose the quiz they want to take.</li>
+      <li>Introduce different levels of the quiz i.e., easy, moderate, expert – where users with different experience can choose the quiz they want to take.</li>
       <li>To have a minimum of 30 questions for each category mentioned above.</li>
       <li>To have all quiz questions in separate files (easier maintenance, update, etc.)</li>
-      <li>To have local storage implemented to save the user quiz results along with the leader board section which can show the highest results.</li>
+      <li>To have local storage implemented to save the user quiz results along with the leader board section which can show the highest results for each quiz category.</li>
       <li>To have a functionality where the question-related picture is displayed on the screen. See the example below.</li>
 
 ![Feature to be implemented](assets/images/feature-to-be-implemented.PNG "Feature to be implemented")    
@@ -294,5 +294,9 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 <li>CSS - when using the official <a href="https://jigsaw.w3.org/css-validator/"> (Jigsaw) Validator.</a>, no errors or warnings were found during the code validation process.</li>
 
 ![CSS validator check results](assets/docs/css-validator-check.PNG "CSS validator check results")
-<li></li>
+<li>JSHint - when using the official <a href="https://jshint.com/"> JavaScript Code Quality Tool</a> I discovered missing semi-colons on lines 84, 142, 161, 173, 197 and 200.This issue was corrected immediately. No other warnings or errors are presented.</li>
+
+![JSHint validator check results](assets/docs/jshint-validator%20testing.PNG "JSHint validator check results")
 </ul>
+
+# **Lighthouse testing** 
