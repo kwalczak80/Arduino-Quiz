@@ -75,7 +75,7 @@
       <ul>
       <li>Gradient</li>
          <ul>
-         <li>I used <a href="https://https://cssgradient.io/">CSS gradient</a> website to create a gradient background for my project. This gradient is used as a background for the quiz information being displayed on the page.
+         <li>I used <a href="https://cssgradient.io/">CSS gradient</a> website to create a gradient background for my project. This gradient is used as a background for the quiz information being displayed on the page.
 The contrast checker was used to make sure that the contrast is sufficient and that there are no issues with the website readability.
          </li>
 
@@ -164,11 +164,12 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 
 ![Feature to be implemented](assets/images/feature-to-be-implemented.PNG "Feature to be implemented")    
    </ul>
+   <hr>
    <li><strong>Responsiveness</strong></li>
    <ul>
-      <li>The responsive design tests were carried out manually with <a href="https://developer.chrome.com/docs/devtools">Google Chrome DevTools</a> and <a href="https://https://responsivedesignchecker.com/">Responsive Web Design Checker</a>. No issues were found during the tests therefore it is confirmed that this website is designed to be responsive on all device screen sizes.</li>
+      <li>The responsive design tests were carried out manually with <a href="https://developer.chrome.com/docs/devtools">Google Chrome DevTools</a> and <a href="https://responsivedesignchecker.com/">Responsive Web Design Checker</a>. No issues were found during the tests therefore it is confirmed that this website is designed to be responsive on all device screen sizes.</li>
    </ul>
-
+   <hr>
    <li><strong>Technologies Used</strong></li>
    <ul>
    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
@@ -176,17 +177,96 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>Markup language</li>
       </ul>
    </ul>
-
-     <ul>
+      <ul>
+   <li><a href="https://en.wikipedia.org/wiki/CSS">CSS</a></li>
+      <ul>
+      <li>Cascading Style Sheets</li>
+      </ul>
+   </ul>
+         <ul>
+   <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a></li>
+      <ul>
+      <li>Provides interactivity</li>
+      </ul>
+   </ul>
+            <ul>
+   <li><a href="https://balsamiq.com/">Balsamiq</a></li>
+      <ul>
+      <li>To create wireframes during design</li>
+      </ul>
+   </ul>
+               <ul>
+   <li><a href="https://fonts.google.com/">Google fonts</a></li>
+      <ul>
+      <li>The fonts used in the project were imported using the official Google Fonts website.</li>
+      </ul>
+   </ul>
+                 <ul>
+   <li><a href="https://www.freeformatter.com/">Free formatter</a></li>
+      <ul>
+      <li>An online tool which was used to improve HTML and CSS code presentation.</li>
+      </ul>
+   </ul>
+                   <ul>
+   <li><a href="https://github.com/">GitHub</a></li>
+      <ul>
+      <li>GitHub was used to store all the project files written in Gitpod.</li>
+      </ul>
+   </ul>
+                   <ul>
+   <li><a href="https://developer.chrome.com/docs/devtools/">Chrome Dev Tools</a></li>
+      <ul>
+      <li>Used to test code and debug errors.</li>
+      </ul>
+   </ul>
+                       <ul>
+   <li><a href="https://coolors.co/contrast-checker/1e1e1e-6ab6f3">Color contrast checker</a></li>
+      <ul>
+      <li>The tool was used to make sure the website was free of contrast issues.</li>
+      </ul>
+   </ul>
+                     <ul>
+   <li><a href="https://cssgradient.io/">CSS Gradient</a></li>
+      <ul>
+      <li>The tool was used to create gradient background for this project.</li>
+      </ul>
+   </ul>
+                     <ul>
+   <li><a href="https://jsfiddle.net/">JS Fiddle</a></li>
+      <ul>
+      <li>Used as a playground to test the code</li>
+      </ul>
+   </ul>
+                     <ul>
+   <li><a href="https://validator.w3.org/">W3C HTML Validation Service</a></li>
+      <ul>
+      <li>Used to validate HTML code</li>
+      </ul>
+   </ul>
+                        <ul>
+   <li><a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a></li>
+      <ul>
+      <li>Used to validate CSS code</li>
+      </ul>
+   </ul>
+                          <ul>
+   <li><a href="https://jigsaw.w3.org/">Jigsaw</a></li>
+      <ul>
+      <li>Used to validate Javascript code</li>
+      </ul>
+   </ul>
+                           <ul>
+   <li><a href="http://ami.responsivedesign.is/">Am I responsive design</a></li>
+      <ul>
+      <li>Used to test the website responsiveness</li>
+      </ul>
+   </ul>
+                            <ul>
+   <li><a href="https://responsivedesignchecker.com/"> Responsive Web Design Checker</a></li>
+      <ul>
+      <li>Another tool which offers more screen options to test the website responsiveness</li>
+      </ul>
    </ul>
 
-     <ul>
-   </ul>
-     <ul>
-   </ul>
-     <ul>
-   </ul>
-     <ul>
-   </ul>
-     <ul>
-   </ul>
+
+
