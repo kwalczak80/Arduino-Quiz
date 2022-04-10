@@ -286,3 +286,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 </ul>
 <hr>
 
+# **Validator Testing** 
+<ul>
+<li>When using the official W3C Validator, no errors or warnings were found during the code validation process</li>
+</ul>
