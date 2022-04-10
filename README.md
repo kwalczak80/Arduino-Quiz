@@ -115,7 +115,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       </ul>
 
 ![Quiz rules](assets/images/quiz-rules-section.PNG "Quiz rules")
-      <li><strong>The Quiz section</strong></li>
+      <li><strong>Quiz section</strong></li>
       <ul>
       <li>The quiz section screen is divided into three subsections:</li>
          <ul>
@@ -355,4 +355,27 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 <li><a href="https://rootsaid.com/snax_quiz/arduino-quiz-basics/"> rootsaid.com </a></li>
 <li><a href="https://quizizz.com/admin/quiz/5b755bae72a130001a4c82d1/arduino"> quizizz.com</a></li>
 </ul>
+</ul>
+
+# **Deployment**
+### **GitHub Pages**
+<p>The project was deployed to GitHub pages using the following steps:</p>
+<ol type="1">
+   <li>Log in to GitHub</li>
+   <li>On the left-hand side, click the Clonmel Hiking Club project.</li>
+   <li>At the top of the page locate the <strong>Settings</strong> button in the menu section.</li>
+   <li>Scroll down to find <strong>GitHub Pages</strong> section and click on <strong>Check it out here!</strong></li>
+   <li>Under <strong>Source</strong>, select <strong>Main</strong> from the dropdown branch menu.</li>
+   <li>Click <strong>Save</strong> and the page will refresh automatically.</li>
+   <li>Scroll back down through the page to locate published the <a href="https://github.com/kwalczak80/Arduino-Quiz">Arduino Quiz </a>website in the "GitHub Pages" section.</li>
+</ol>
+<hr>
+
+# **Acknowledgements**
+<ul>
+   <li>My Mentor <a href="https://github.com/Eventyret">Simen Daehlin</a> for continuous helpful feedback.</li>
+   <li>Code Institute's <a href="https://app.slack.com/client/">Slack</a> community for their support. Special thanks to Pedro Ferreira from jan-2022-ucd class.</li>
+   <li>Javascript tutorials on <a href="https://www.w3schools.com/js/">W3 Schools</a> as an additional source of knowledge.</li>
+   <li>Traversy Media <a href="https://www.youtube.com/c/TraversyMedia">Tutorials</a> that helped me better understand DOM manipulation.</li>
+   <li>Code Wizard <a href="https://www.youtube.com/watch?v=LxQK4F0xwmU">How to Shuffle an Array in JavaScript</a> tutorial.</li>
 </ul>
