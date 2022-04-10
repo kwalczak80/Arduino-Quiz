@@ -10,17 +10,26 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing:border-box;
   }
   
+  /*html,body{
+    /*height:100%;*/
+    padding:0;
+    margin:0;
+  }
+
   body {
     color: rgb(46, 46, 46);
     font-family: "Roboto", sans-serif;
   }
   
   .main-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+  justify-content:center;
+  align-items:center;
+    /*width:100%;*/
+    height:100%;
     max-width: 80rem;
     margin: 0 auto;
   }
@@ -30,6 +39,7 @@
   }
   
   .container {
+    /*max-width: 80rem;*/
     background: linear-gradient(to bottom, rgb(94, 243, 228) 0%, rgb(106, 182, 243) 100%);
     border-radius: 0.5rem;
   }
@@ -194,19 +204,105 @@ button:hover {
 
 /* Media queries */
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 280px) {
+  .container {
+    margin: 0.5rem;
+  }
+  .quiz-name {
+    font-size: 5rem;
+  }
+ 
+  h1 {
+    font-size: 4rem;
+    padding: 0.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
+
+  ul li {
+    font-size: 1.3rem;
+    margin: 0.3rem;
+  }
+
+  #quiz-rules li:last-child {
+    font-size: 1.5rem;
+    padding: 1rem
+  }
+
+  #question {
+    font-size: 1.5rem;
+  }
+
+  button,
+  #submit-button {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+  }
+
+  #question-number h1 {
+    font-size: 3rem;
+  }
+
+  #score-area {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-size: 1.3rem;
+  }
+
+  #options li {
+    margin: 1rem 0.5rem;
+  }
+
+  img {
+    transform: scale(0.8);
+  }
+
+  #arduino-information {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+  }
+
+  .scores {
+    padding: 0.3rem;
+  }
+}
+
+/*
+@media screen and (max-width: 768px) {
+  .container {
+    margin: 0.5rem;
+  }
+  /*.main-container {
+    height: 100vh;
+  }
+}
+*/
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 0.5rem;
+  }
+}
+
+@media screen and (min-height: 481px) {
+  html,body{
+    height:100%;
+  }
+}
+/*
+@media screen and (min-width: 280px) {
   .container {
     margin: 0.5rem;
   }
   .quiz-name {
     font-size: 6rem;
   }
-
-  /*
-  .main-container {
-    display: flex;
-    }
-  */
+ 
   h1 {
     font-size: 4.5rem;
     padding: 0.5rem;
@@ -266,20 +362,5 @@ button:hover {
   .scores {
     padding: 0.3rem;
   }
-}
+}*/
 
-
-@media screen and (max-width: 768px) {
-  .container {
-    margin: 0.5rem;
-  }
-  /*.main-container {
-    height: 100vh;
-  }*/
-}
-
-@media screen and (min-width: 769px) {
-  .main-container {
-    height: 100vh;
-  }
-}
