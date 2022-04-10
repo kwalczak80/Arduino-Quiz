@@ -288,5 +288,11 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 
 # **Validator Testing** 
 <ul>
-<li>When using the official W3C Validator, no errors or warnings were found during the code validation process</li>
+<li>HTML - when using the official <a href="https://validator.w3.org/"> W3C Validator</a>, no errors or warnings were found during the code validation process.</li>
+
+![HTML validator check results](assets/docs/html-validator-check.PNG "HTML validator check results") 
+<li>CSS - when using the official <a href="https://jigsaw.w3.org/css-validator/"> (Jigsaw) Validator.</a>, no errors or warnings were found during the code validation process.</li>
+
+![CSS validator check results](assets/docs/css-validator-check.PNG "CSS validator check results")
+<li></li>
 </ul>
