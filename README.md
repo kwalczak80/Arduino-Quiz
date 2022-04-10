@@ -79,10 +79,10 @@
 The contrast checker was used to make sure that the contrast is sufficient and that there are no issues with the website readability.
          </li>
 
-![Gradient background](assets/images/gradient.PNG "Gradient Background")
+![Gradient background](assets/docs/gradient.PNG "Gradient Background")
          </ul>
       <li>Colour Scheme</li>
-![Scheme colours](assets/images/main-website-colors.PNG "Main website colors")
+![Scheme colours](assets/docs/main-website-colors.PNG "Main website colors")
          <ul>
             <li>#1E1E1E – color was used for all the text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
             <li>#17608A - color was used as a background for all the buttons used on the website.</li>
@@ -106,7 +106,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>Once the user name is entered and submit button is clicked, the current section will no longer be visible.</li>
       </ul>
 
-![Welcome section](assets/images/welcome-section.PNG "Welcome section")
+![Welcome section](assets/docs/welcome-section.PNG "Welcome section")
       <li><strong>Quiz rules</strong></li>
       <ul>
       <li>To personalize the user experience the section with quiz rules is displayed using the user name entered in welcome screen.</li>
@@ -114,7 +114,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>Once the user is familiar with the quiz rules they are invited to click on the <strong>“I understand. Let’s play”</strong> button in order to start the quiz. </li>
       </ul>
 
-![Quiz rules](assets/images/quiz-rules-section.PNG "Quiz rules")
+![Quiz rules](assets/docs/quiz-rules-section.PNG "Quiz rules")
       <li><strong>Quiz section</strong></li>
       <ul>
       <li>The quiz section screen is divided into three subsections:</li>
@@ -127,15 +127,15 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>Each question must be answered to move to the next question.</li>
       <li>To answer the question the user must select their choice by using the radio button and click the <strong>Submit</strong> button in order to submit the answer.</li>
       </ul>
-![Quiz questions](assets/images/quiz-section.PNG "Quiz questions")
+![Quiz questions](assets/docs/quiz-section.PNG "Quiz questions")
       <li>The score area provides information to the user about their progress through the quiz. If the question they answered is correct the count of correctly answered questions will increase (highlighted in green). If the question is answered incorrectly the count of incorrectly answered will increase (highlighted in red). </li>
-![Score area](assets/images/score-area.PNG "Score area")
+![Score area](assets/docs/score-area.PNG "Score area")
       <li>Note that at the beginning of the quiz when no question is answered yet, the quiz results text has the inherited text color. After the first question is answered by the user the quiz results text color will automatically change to green and red respectively.</li>
-![Score area inherit text color](assets/images/score-area-inherit-text-color.PNG "Score area inherit text color")
+![Score area inherit text color](assets/docs/score-area-inherit-text-color.PNG "Score area inherit text color")
 
    <li>The score area has a different layout depending on which screen size the website is displayed. Therefore, the score results can be displayed in a row on bigger screens (see above) or in a column on smaller screens (mobile phones) as shown below.</li>
 
-![Score area layout on smaller screens](assets/images/score-area-layout-on-smaller-screens.PNG "Score area layout on smaller screens")
+![Score area layout on smaller screens](assets/docs/score-area-layout-on-smaller-screens.PNG "Score area layout on smaller screens")
 
    <li><strong>Randomized quiz questions</strong></li>
    <ul>
@@ -152,7 +152,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
    </ul>
    </ul>
 
-![Quiz summary](assets/images/quiz-summary-section.PNG "Quiz summary")
+![Quiz summary](assets/docs/quiz-summary-section.PNG "Quiz summary")
 
 # **Features to be implemented**
    <ul>
@@ -162,7 +162,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>To have local storage implemented to save the user quiz results along with the leader board section which can show the highest results for each quiz category.</li>
       <li>To have a functionality where the question-related picture is displayed on the screen. See the example below.</li>
 
-![Feature to be implemented](assets/images/feature-to-be-implemented.PNG "Feature to be implemented")    
+![Feature to be implemented](assets/docs/feature-to-be-implemented.PNG "Feature to be implemented")    
    </ul>
    <hr>
 
