@@ -43,7 +43,7 @@
 
 # **Wireframe**
 <ul>
-   <li>The Balsamiq software was to create a visual layout of the Arduino Quiz website. You can check the wireframes below.</li>
+   <li>The Balsamiq software was used to create a visual layout of the Arduino Quiz website. You can check the wireframes below.</li>
    <ul>
       <li>The desktop wireframes showing all the quiz sections can be found <a href="assets/wireframes/arduino-quiz-wireframe-for-desktop-all-sections.pdf">here</a></li>
       <li>The tablet/ipad wireframes showing all the sections can be found <a href="assets/wireframes/arduino-quiz-wireframe-for-tablet-all-sections.pdf">here</a></li>
