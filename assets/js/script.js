@@ -96,6 +96,7 @@ const optionBRef = document.querySelector('#option-b');
 const optionCRef = document.querySelector('#option-c');
 const optionDRef = document.querySelector('#option-d');
 const submitBtnRef = document.querySelector('#submit');
+const quizCompletionInfo = document.querySelector('#quiz-completion');
 const form = document.querySelector('#playername-form');
 
 /* Variables to track quiz progress */
@@ -190,10 +191,18 @@ submitBtnRef.addEventListener("click", () => {
         } else {
             quizSummaryRef.classList.remove('hide-content');
             quizRef.classList.add('hide-content');
-            quizResultsRef.innerHTML = `
+            if (score == 0) {
+                quizCompletionInfo.innerHTML = `Ups..`;
+                quizResultsRef.innerHTML = `
+          <h2>None of the questions were answered correctly.</h2>
+<button onclick = "location.reload()">Try again</button>
+          `;
+            } else {
+                quizResultsRef.innerHTML = `
           <h2>You have answered ${score} of ${data.length} questions correctly.</h2>
 <button onclick = "location.reload()">Try again</button>
           `;
+            }
         }
     }
 });
@@ -206,4 +215,3 @@ function updateQuizStatistics() {
     document.querySelector('#incorrect-answers').innerHTML = incorrectAnswers;
     document.querySelector('#incorrect-answers').style.color = "Red";
 }
-
