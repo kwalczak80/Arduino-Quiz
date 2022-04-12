@@ -1,4 +1,9 @@
 /*jshint esversion: 6 */
+
+// wait for the DOM to finish loading before running the quiz
+document.addEventListener('DOMContentLoaded', function() {
+});
+
 /* Quiz questions */
 const data = [{
         question: "Which is the Arduino Board with most number of Pins?",
