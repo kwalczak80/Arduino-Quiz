@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */
 
-// wait for the DOM to finish loading before running the quiz
+// wait until DOM is loaded before running the quiz
 document.addEventListener('DOMContentLoaded', function() {
 });
 
