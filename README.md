@@ -70,6 +70,8 @@
       </ul>
 </ul>
 
+![Background](assets/docs/background-screenshot.PNG "Background")
+
  <ul>
       <li><strong>Colour Scheme</strong></li>
       <ul>
@@ -156,6 +158,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 ![All questions answered incorrectly](assets/docs/all-questions-answered-incorrectly.PNG "All questions answered incorrectly")
 ![Quiz summary](assets/docs/quiz-summary-section.PNG "Quiz summary")
 ![Arduino website](assets/docs/arduino-official-website.PNG "Arduino website")
+<hr>
 
 # **Features to be implemented**
    <ul>
