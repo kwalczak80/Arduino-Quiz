@@ -80,9 +80,9 @@
          <li>I used <a href="https://cssgradient.io/">CSS gradient</a> website to create a gradient background for my project. This gradient is used as a background for the quiz information being displayed on the page.
 The contrast checker was used to make sure that the contrast is sufficient and that there are no issues with the website readability.
          </li>
-
-![Gradient background](assets/docs/gradient.PNG "Gradient Background")
          </ul>
+![Gradient background](assets/docs/gradient.PNG "Gradient Background")
+         
       <li>Colour Scheme</li>
 ![Scheme colours](assets/docs/main-website-colors.PNG "Main website colors")
          <ul>
@@ -286,7 +286,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 <li>Opera</li>
 <li>Edge</li>
 </ul>
-<li>A variety of devices were also used to view the website, including desktops, laptops, tablets, iPhone 6s, and Google Pixel 4a.</li>
+<li>A variety of devices were also used to view the website, including desktops, laptops, tablets, iPhone 7, and Google Pixel 4a.</li>
 <li>The website is fully operational and its design makes navigation easy for the user.</li>
 <li>Each section of the website has been verified as readable and easy to navigate.</li>
 </ul>
