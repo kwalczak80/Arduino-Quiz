@@ -81,6 +81,7 @@
 The contrast checker was used to make sure that the contrast is sufficient and that there are no issues with the website readability.
          </li>
          </ul>
+         
 ![Gradient background](assets/docs/gradient.PNG "Gradient Background")
          
       <li>Colour Scheme</li>
