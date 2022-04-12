@@ -45,9 +45,9 @@
 <ul>
    <li>The Balsamiq software was used to create a visual layout of the Arduino Quiz website. You can check the wireframes below.</li>
    <ul>
-      <li>The desktop wireframes showing all the quiz sections can be found <a href="assets/wireframes/arduino-quiz-wireframe-for-desktop-all-sections.pdf">here</a></li>
-      <li>The tablet/ipad wireframes showing all the sections can be found <a href="assets/wireframes/arduino-quiz-wireframe-for-tablet-all-sections.pdf">here</a></li>
-      <li>The mobile wireframes showing all the quiz sections found <a href="assets/wireframes/arduino-quiz-wireframe-for-mobile-all-sections.pdf">here</a></li>
+      <li>The desktop wireframes showing all the quiz sections can be found <a href="docs/wireframes/arduino-quiz-wireframe-for-desktop-all-sections.pdf">here</a></li>
+      <li>The tablet/ipad wireframes showing all the sections can be found <a href="docs/wireframes/arduino-quiz-wireframe-for-tablet-all-sections.pdf">here</a></li>
+      <li>The mobile wireframes showing all the quiz sections found <a href="docs/wireframes/arduino-quiz-wireframe-for-mobile-all-sections.pdf">here</a></li>
    </ul>
 </ul>
 <hr>
@@ -70,7 +70,7 @@
       </ul>
 </ul>
 
-![Background](assets/docs/background-screenshot.PNG "Background")
+![Background](docs/screenshots/background-screenshot.png "Background")
  <ul>
       <li><strong>Colour Scheme</strong></li>
       <ul>
@@ -81,9 +81,9 @@ The contrast checker was used to make sure that the contrast is sufficient and t
          </li>
          </ul>
 
-![Gradient background](assets/docs/gradient.PNG "Gradient Background")
+![Gradient background](docs/screenshots/gradient.png "Gradient Background")
             <li>Colour Scheme</li>
-![Scheme colours](assets/docs/main-website-colors.PNG "Main website colors")
+![Scheme colours](docs/screenshots/main-website-colors.png "Main website colors")
          <ul>
             <li>#1E1E1E – color was used for all the text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
             <li>#17608A - color was used as a background for all the buttons used on the website.</li>
@@ -109,7 +109,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>Once the user name is entered and submit button is clicked, the current section will no longer be visible.</li>
       </ul>
 
-![Welcome section](assets/docs/welcome-section.PNG "Welcome section")
+![Welcome section](docs/screenshots/welcome-section.png "Welcome section")
       <li><strong>Quiz rules</strong></li>
       <ul>
       <li>To personalize the user experience the section with quiz rules is displayed using the user name entered in welcome screen.</li>
@@ -117,7 +117,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>Once the user is familiar with the quiz rules they are invited to click on the <strong>“I understand. Let’s play”</strong> button in order to start the quiz. </li>
       </ul>
 
-![Quiz rules](assets/docs/quiz-rules-section.PNG "Quiz rules")
+![Quiz rules](docs/screenshots/quiz-rules-section.png "Quiz rules")
       <li><strong>Quiz section</strong></li>
       <ul>
       <li>The quiz section screen is divided into three subsections:</li>
@@ -130,15 +130,15 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>Each question must be answered to move to the next question.</li>
       <li>To answer the question the user must select their choice by using the radio button and click the <strong>Submit</strong> button in order to submit the answer.</li>
       </ul>
-![Quiz questions](assets/docs/quiz-section.PNG "Quiz questions")
+![Quiz questions](docs/screenshots/quiz-section.png "Quiz questions")
       <li>The score area provides information to the user about their progress through the quiz. If the question they answered is correct the count of correctly answered questions will increase (highlighted in green). If the question is answered incorrectly the count of incorrectly answered will increase (highlighted in red). </li>
-![Score area](assets/docs/score-area.PNG "Score area")
+![Score area](docs/screenshots/score-area.png "Score area")
       <li>Note that at the beginning of the quiz when no question is answered yet, the quiz results text has the inherited text color. After the first question is answered by the user the quiz results text color will automatically change to green and red respectively.</li>
-![Score area inherit text color](assets/docs/score-area-inherit-text-color.PNG "Score area inherit text color")
+![Score area inherit text color](docs/screenshots/score-area-inherit-text-color.png "Score area inherit text color")
 
    <li>The score area has a different layout depending on which screen size the website is displayed. Therefore, the score results can be displayed in a row on bigger screens (see above) or in a column on smaller screens (mobile phones) as shown below.</li>
 
-![Score area layout on smaller screens](assets/docs/score-area-layout-on-smaller-screens.PNG "Score area layout on smaller screens")
+![Score area layout on smaller screens](docs/screenshots/score-area-layout-on-smaller-screens.png "Score area layout on smaller screens")
 
    <li><strong>Randomized quiz questions</strong></li>
    <ul>
@@ -156,9 +156,9 @@ The contrast checker was used to make sure that the contrast is sufficient and t
    </ul>
    </ul>
 
-![All questions answered incorrectly](assets/docs/all-questions-answered-incorrectly.PNG "All questions answered incorrectly")
-![Quiz summary](assets/docs/quiz-summary-section.PNG "Quiz summary")
-![Arduino website](assets/docs/arduino-official-website.PNG "Arduino website")
+![All questions answered incorrectly](docs/screenshots/all-questions-answered-incorrectly.png "All questions answered incorrectly")
+![Quiz summary](docs/screenshots/quiz-summary-section.png "Quiz summary")
+![Arduino website](docs/screenshots/arduino-official-website.png "Arduino website")
 <hr>
 
 # **Features to be implemented**
@@ -169,7 +169,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>To have local storage implemented to save the user quiz results along with the leader board section which can show the highest results for each quiz category.</li>
       <li>To have a functionality where the question-related picture is displayed on the screen. See the example below.</li>
 
-![Feature to be implemented](assets/docs/feature-to-be-implemented.PNG "Feature to be implemented")    
+![Feature to be implemented](docs/screenshots/feature-to-be-implemented.png "Feature to be implemented")    
    </ul>
    <hr>
 
@@ -198,7 +198,10 @@ The contrast checker was used to make sure that the contrast is sufficient and t
       <li>Provides interactivity</li>
       </ul>
    </ul>
-            <ul>
+   <hr>
+
+ # **Tools**
+   <ul>
    <li><a href="https://balsamiq.com/">Balsamiq</a></li>
       <ul>
       <li>To create wireframes during design</li>
