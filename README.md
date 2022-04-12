@@ -300,13 +300,13 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 <ul>
 <li>HTML - when using the official <a href="https://validator.w3.org/"> W3C Validator</a>, no errors or warnings were found during the code validation process.</li>
 
-![HTML validator check results](assets/docs/html-validator-check.PNG "HTML validator check results") 
+![HTML validator check results](docs/screenshots/html-validator-check.png "HTML validator check results") 
 <li>CSS - when using the official <a href="https://jigsaw.w3.org/css-validator/"> (Jigsaw) Validator.</a>, no errors or warnings were found during the code validation process.</li>
 
-![CSS validator check results](assets/docs/css-validator-check.PNG "CSS validator check results")
+![CSS validator check results](docs/screenshots/css-validator-check.png "CSS validator check results")
 <li>JSHint - when using the official <a href="https://jshint.com/"> JavaScript Code Quality Tool</a> I discovered missing semi-colons on lines 84, 142, 161, 173, 197 and 200.This issue was corrected immediately. No other warnings or errors are presented.</li>
 
-![JSHint validator check results](assets/docs/jshint-validator%20testing.PNG "JSHint validator check results")
+![JSHint validator check results](docs/screenshots/jshint-validator-testing.png "JSHint validator check results")
 </ul>
 <hr>
 
@@ -315,10 +315,10 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 <ul>
    <li>Mobile</li>
 
-   ![Lighthouse testing mobile](assets/docs/lighthouse-testing-mobile.PNG "Lighthouse testing mobile")
+   ![Lighthouse testing mobile](docs/screenshots/lighthouse-testing-mobile.png "Lighthouse testing mobile")
    <li>Desktop</li>
 
-   ![Lighthouse testing desktop](assets/docs/lighthouse-testing-desktop.PNG "Lighthouse testing desktop")
+   ![Lighthouse testing desktop](docs/screenshots/lighthouse-testing-desktop.png "Lighthouse testing desktop")
 </ul>
 <hr>
 
