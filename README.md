@@ -71,7 +71,6 @@
 </ul>
 
 ![Background](assets/docs/background-screenshot.PNG "Background")
-
  <ul>
       <li><strong>Colour Scheme</strong></li>
       <ul>
@@ -81,10 +80,9 @@
 The contrast checker was used to make sure that the contrast is sufficient and that there are no issues with the website readability.
          </li>
          </ul>
-         
+
 ![Gradient background](assets/docs/gradient.PNG "Gradient Background")
-         
-      <li>Colour Scheme</li>
+            <li>Colour Scheme</li>
 ![Scheme colours](assets/docs/main-website-colors.PNG "Main website colors")
          <ul>
             <li>#1E1E1E – color was used for all the text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
@@ -95,9 +93,11 @@ The contrast checker was used to make sure that the contrast is sufficient and t
          </ul>
       </ul>
 </ul>
+<hr>
 
 # **Site Structure**
 <p>This website is designed to be a one-page site. Based on the user activity, relevant sections of the website are being shown or hidden. This is done when the user clicks on the button in order to proceed through the quiz. To start the quiz user must first enter their name which will be then populated on the welcome screen where the rules of the quiz are displayed. Once the user is familiar with the rules, they can hit the “I understand. Let’s play” button to start the quiz. Questions are presented one by one with the current question number shown on the screen. In order to move to the next question, the current question must be answered. The scoring area helps the user to track which questions were answered correctly and which were not. Upon completion of the quiz, a summary of correctly answered questions is displayed on the screen. At this point, the user has two choices; to do the quiz again by clicking on the “Try again” button or to visit the Arduino official website by clicking on the Arduino icon. This will open the Arduino official website in a new window.</p>
+<hr>
 
 # **Features**
    <ul>
@@ -305,6 +305,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 
 ![JSHint validator check results](assets/docs/jshint-validator%20testing.PNG "JSHint validator check results")
 </ul>
+<hr>
 
 # **Lighthouse testing**
 <p>The Lighthouse tool was used to assess the website's accessibility and the results are shown below.</p>
@@ -363,6 +364,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 <li><a href="https://quizizz.com/admin/quiz/5b755bae72a130001a4c82d1/arduino"> quizizz.com</a></li>
 </ul>
 </ul>
+<hr>
 
 # **Deployment**
 ### **GitHub Pages**
@@ -386,3 +388,4 @@ The contrast checker was used to make sure that the contrast is sufficient and t
    <li>Traversy Media <a href="https://www.youtube.com/c/TraversyMedia">Tutorials</a> that helped me better understand DOM manipulation.</li>
    <li>Code Wizard <a href="https://www.youtube.com/watch?v=LxQK4F0xwmU">How to Shuffle an Array in JavaScript</a> tutorial.</li>
 </ul>
+<hr>
