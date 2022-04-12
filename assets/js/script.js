@@ -1,9 +1,9 @@
 /*jshint esversion: 6 */
 
-// wait until DOM is loaded before running the quiz
+// Wait until DOM is loaded before running the quiz
 document.addEventListener('DOMContentLoaded', function() {});
 
-/* Quiz questions */
+// Quiz questions 
 const data = [{
         question: "Which is the Arduino Board with most number of Pins?",
         a: 'Arduino Nano',
@@ -103,7 +103,7 @@ const submitBtnRef = document.querySelector('#submit');
 const quizCompletionInfo = document.querySelector('#quiz-completion');
 const form = document.querySelector('#playername-form');
 
-/* Variables to track quiz progress */
+// Variables to track quiz progress
 
 let questionNumber = 1;
 let currentQuiz = 0;
@@ -111,11 +111,11 @@ let score = 0;
 let correctAnswers = 0;
 let incorrectAnswers = 0;
 
-/* Set array with randomized questions for each quiz - question will not be displayed in the same sequence as in previous quiz*/
+//Set array with randomized questions for each quiz - question will not be displayed in the same sequence as in previous quiz
 
 let randomArrayItems = shuffleArray(data);
 
-/* Add event listener to the form submit button */
+// Add event listener to the form submit button
 
 form.addEventListener('submit', function(event) {
     console.log(event);
@@ -126,7 +126,7 @@ form.addEventListener('submit', function(event) {
     event.preventDefault();
 });
 
-/* Add event listener to the submit button to start quiz */
+// Add event listener to the submit button to start quiz 
 
 quizStartButtonRef.addEventListener('click', function() {
     quizRulesRef.classList.add('hide-content');
@@ -146,7 +146,7 @@ function loadQuiz() {
     displayQuestionNumberRef.innerHTML = `<h1>Question ${questionNumber} of ${data.length}</h1>`;
 }
 
-/* credit to https://www.youtube.com/watch?v=LxQK4F0xwmU to randomize array elements*/
+// Credit to https://www.youtube.com/watch?v=LxQK4F0xwmU to randomize array elements
 
 function shuffleArray(arrayToShuffle) {
     for (let i = arrayToShuffle.length - 1; i > 0; i--) {
@@ -158,14 +158,14 @@ function shuffleArray(arrayToShuffle) {
     return arrayToShuffle;
 }
 
-/*Function to deselect all answers after the question is being displayed*/
+// Function to deselect all answers after the question is being displayed
 
 function deselectAnswers() {
     answerRef.forEach((answerEl) => (
         answerEl.checked = false));
 }
 
-/* Function to select answer */
+// Function to select answer 
 
 function getSelected() {
     let answer;
@@ -211,7 +211,7 @@ submitBtnRef.addEventListener("click", () => {
     }
 });
 
-/* Function to update information about correctly or incorrectly answered question */
+// Function to update information about correctly or incorrectly answered question 
 
 function updateQuizStatistics() {
     document.querySelector('#correct-answers').innerHTML = correctAnswers;
