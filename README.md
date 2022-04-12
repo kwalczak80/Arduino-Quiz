@@ -145,6 +145,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
    <ul>
    <li>The quiz will end once the 10 questions are answered.</li>
    <li>The summary of correctly answered questions will be displayed on the screen.</li>
+   <li>A message will be dislpayed on the screen if none of the questions were answered correctly</li>
    <li>The user has two choices at this stage:</li>
    <ul>
    <li>To take the quiz again if they want to improve their score – the “Try again” button will start a new quiz.</li>
@@ -152,6 +153,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
    </ul>
    </ul>
 
+![All questions answered incorrectly](assets/docs/all-questions-answered-incorrectly.PNG "All questions answered incorrectly")
 ![Quiz summary](assets/docs/quiz-summary-section.PNG "Quiz summary")
 ![Arduino website](assets/docs/arduino-official-website.PNG "Arduino website")
 
