@@ -192,7 +192,7 @@ submitBtnRef.addEventListener("click", () => {
             quizSummaryRef.classList.remove('hide-content');
             quizRef.classList.add('hide-content');
             if (score == 0) {
-                quizCompletionInfo.innerHTML = `Ups..`;
+                quizCompletionInfo.innerHTML = `Oops..`;
                 quizResultsRef.innerHTML = `
           <h2>None of the questions were answered correctly.</h2>
 <button onclick = "location.reload()">Try again</button>
