@@ -1,8 +1,7 @@
 /*jshint esversion: 6 */
 
 // wait until DOM is loaded before running the quiz
-document.addEventListener('DOMContentLoaded', function() {
-});
+document.addEventListener('DOMContentLoaded', function() {});
 
 /* Quiz questions */
 const data = [{
@@ -118,7 +117,7 @@ let randomArrayItems = shuffleArray(data);
 
 /* Add event listener to the form submit button */
 
-form.addEventListener('submit', function (event) {
+form.addEventListener('submit', function(event) {
     console.log(event);
     homeRef.style.display = 'none';
     quizRulesRef.classList.remove('hide-content');
@@ -129,7 +128,7 @@ form.addEventListener('submit', function (event) {
 
 /* Add event listener to the submit button to start quiz */
 
-quizStartButtonRef.addEventListener('click', function () {
+quizStartButtonRef.addEventListener('click', function() {
     quizRulesRef.classList.add('hide-content');
     quizRef.classList.remove('hide-content');
 });
