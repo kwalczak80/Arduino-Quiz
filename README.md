@@ -35,6 +35,7 @@
   <li>Update the quiz questions regularly, as it may prompt the user to return to the website.</li>
 </ul>
 <hr>
+
 # **Wireframe**
 <ul>
   <li>The Balsamiq software was used to create a visual layout of the Arduino Quiz website. You can check the wireframes below.</li>
@@ -78,14 +79,12 @@
   <li>#F7F7F7 - color was used to display the text information on the buttons</li>
   <li>#088308 - color was used to highlight correctly answered question</li>
   <li>#D10F0F - color was used to highlight incorrectly answered question</li>
-  <li>#CECFE27E - color was used as a background for player name input field </li>
-</ul>
-</ul>
+  <li>#CECFE27E - color was used as a background for the player name input field </li>
 </ul>
 <hr>
 
 # **Site Structure**
-<p>This website is designed to be a one-page site. Based on the user activity, relevant sections of the website are being shown or hidden. This is done when the user clicks on the button in order to proceed through the quiz. To start the quiz user must first enter their name which will be then populated on the welcome screen where the rules of the quiz are displayed. Once the user is familiar with the rules, they can hit the “I understand. Let’s play” button to start the quiz. Questions are presented one by one with the current question number shown on the screen. In order to move to the next question, the current question must be answered. The scoring area helps the user to track which questions were answered correctly and which were not. Upon completion of the quiz, a summary of correctly answered questions is displayed on the screen. At this point, the user has two choices; to do the quiz again by clicking on the “Try again” button or to visit the Arduino official website by clicking on the Arduino icon. This will open the Arduino official website in a new window.</p>
+<p>This website is designed to be a one-page site. Based on the user activity, relevant sections of the website are being shown or hidden. This is done when the user clicks on the button in order to proceed through the quiz. To start the quiz user must first enter their name which will be then populated on the welcome screen where the rules of the quiz are displayed. Once the user is familiar with the rules, they can hit the “I understand. Let’s play” button to start the quiz. Questions are presented one by one with the current question number shown on the screen. In order to move to the next question, the current question must be answered. The scoring area helps the user to track which questions were answered correctly and which were not. Upon completion of the quiz, a summary of correctly answered questions is displayed on the screen. At this point, the user has two choices; to do the quiz again by clicking on the <strong>Try again</strong> button or to visit the Arduino official website by clicking on the Arduino icon. This will open the Arduino official website in a new tab.</p>
 <hr>
 
 # **Features**
@@ -140,7 +139,7 @@
   <li>A message will be dislpayed on the screen if none of the questions were answered correctly</li>
   <li>The user has two choices at this stage:</li>
   <ul>
-    <li>To take the quiz again if they want to improve their score – the “Try again” button will start a new quiz.</li>
+    <li>To take the quiz again if they want to improve their score – the <strong>Try again</strong> button will start a new quiz.</li>
     <li>Visit the official Arduino website where the user can find supportive information related to the questions asked in this quiz.</li>
   </ul>
 </ul>
