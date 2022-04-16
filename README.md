@@ -324,54 +324,74 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 <hr>
 
 # **Testing User Stories from the User Experience (UX) Section**
-   <h2>As a user, I would like to play this quiz regardless of the device screen size I'm using.</h2>
+   <h3>As a user, I would like to play this quiz regardless of the device screen size I'm using.</h3>
    <ul>
-   <li>Plan</li>
+   <li><strong>Plan</strong></li>
    <p>The main goal I had when planning this project was that the Arduino quiz website would work on a variety of devices, starting with mobile phones and ending with large screens of desktop computers.</p>
-   <li>Implementation</li>
+   <li><strong>Implementation</strong></li>
    <p>When creating this quiz, the main idea was to create a website that would be correctly displayed on any mobile phone screen size. Once that was achieved, I focused on higher resolution devices next. The intended goals were achieved thanks to the use of appropriate tools, simulating the display of a website on various devices, and the appropriate configuration of media inquiries.</p>
-   <li>Testing</li>
+   <li><strong>Testing</strong></li>
    <p>The Arduino quiz website was tested using the tools listed below.</p>
    <ul>
       <li><a href="https://developer.chrome.com/docs/devtools/">Chrome Dev Tools</a></li>
       <li><a href="http://ami.responsivedesign.is">Am I Responsive?</a></li>
       <li><a href="https://responsivedesignchecker.com">Responsive Website Design Checker</a>
    </ul>
-<li>Result</li>
+<li><strong>Result</strong></li>
 <p>After performing many tests, I confirm that the assumptions contained in the initial plan have been achieved</p>
-<li>Verdict</li>
+<li><strong>Verdict</strong></li>
 <p>The Arduino Quiz website allows the user to display its content on a wide variety of display sizes, including mobile phones, tablets, laptops, and desktops. The layout of the page can change depending on the display resolution.</p>
    </ul>
 
-
-
-
-
-
-
-
-
-
-
-
-
-   <h2>As a user, I would like to easily understand the quiz rules.</h2>
+   <h3>As a user, I would like to easily understand the quiz rules.</h3>
    <ul>
-      <li>In the welcome section, before a quiz is taken, the user is given an overview of how the quiz is to be completed.</li>
+   <li><strong>Plan</strong></li>
+   <p>As my project is in the form of a quiz, I wanted to make sure that the user fully understands the quiz rules that will apply before it starts.</p>
+   <li><strong>Implementation</strong></li>
+   <p>The rules of the quiz were formulated as simply as possible so they would be understandable by everyone. The rules are presented as a 6-point list.
+<p>These rules are displayed each time when the quiz starts.</p>
+<li><strong>Testing</strong></li>
+<p>After creating the rules for the quiz, I decided to ask my friends to check if they were clear and understandable so that there was no doubt about their meaning.</p>
+   <li><strong>Result</strong></li>
+   <p>The opinions received from people checking the rules of the quiz were very positive, so I believe that the user is fully informed about the course of the quiz.</p>
+   <li><strong>Verdict</strong></li>
+   <p>The Quiz rules are explained well in a clear and understandable format.</p>
    </ul>
-         <li>As a user, I would like to track the quiz progress.</li>
-   <ul>
-      <li>In the scoring area, the user is provided with a breakdown of correct and incorrect answers. Above the question displayed on the screen, the user can also find the number of questions they have answered so far.</li>
-   </ul>
-            <li>As a user, I would like to know when the quiz is complete.</li>
-   <ul>
-      <li>Upon entering the quiz, the user is aware that there are ten questions. Once all ten questions are answered, a quiz summary section is displayed, which indicates how many questions the user answered correctly.</li>
-   </ul>
-               <li>As a user, I would like to have a chance to retake the quiz to improve my score.</li>
+        <h3>As a user, I would like to track the quiz progress.</h3>
+     <ul>
+      <li><strong>Plan</strong></li>
+      <p>Show the user how many questions have been answered correctly or incorrectly, and which question number is currently displayed.</p>
+      <li><strong>Implementation</strong></li>
+      <p>To quickly check the quiz progress, I decided to add a scoring area below the currently displayed question. This section displays information on how many questions have been answered correctly (highlighted in green) or incorrectly (highlighted in red). This section is automatically updated after each answered question. Depending on the screen resolution, the scoring area can be displayed horizontally or vertically.
+Above the section displaying the question, I also decided to add a section that displays the number of the currently displayed question so that the user knows how many questions are left until the end of the quiz.</p>
+      <li><strong>Testing</strong></li>
+      <p>The sections listed above have been tested many times to make sure that the information displayed is correct. No errors have been noted.</p>
+      <li><strong>Result</strong></li>
+      <p>The quiz progress sections are working as planned and provide relevant information about the quiz progress.</p>
+      <li><strong>Verdict</strong></li>
+      <p>In the scoring area, the user is provided with a breakdown of correct and incorrect answers. Above the question displayed on the screen, the user can also find the number of questions they have answered so far.</p>
+</ul>
+
+<h3>As a user, I would like to know when the quiz is complete.</h3>
+<ul>
+<li><strong>Plan</strong></li>
+<p> Show the information with a quiz summary to the user</p>
+<li><strong>Implementation</strong></li>
+<p>Once the user has answered all the questions, a new section will be displayed on the screen. In this section, the user will be informed that the quiz is over and how many questions have been answered correctly.</p>
+<li><strong>Testing</strong></li>
+<p>Tests have been conducted numerous times to ensure that the information displayed is accurate. </p>
+<li><strong>Result</strong></li>
+<p>The quiz summary section is working as planned.</p>
+<li><strong>Verdict</strong></li>
+<p>Upon entering the quiz, the user is informed that there are ten questions to be answered. Once all ten questions are answered, the quiz summary section is displayed, with information on how many questions the user answered correctly.
+</p>
+</ul>
+
+<h3>As a user, I would like to have a chance to retake the quiz to improve my score.</h3>
    <ul>
       <li>If the user wishes to improve their score, they have the option to try again.</li>
    </ul>
-                  <li>As a user, I would like to visit the official Arduino website where I can information regarding questions asked in the quiz.</li>
+<h3>As a user, I would like to visit the official Arduino website where I can information regarding questions asked in the quiz.</h3>
    <ul>
       <li>The user can click the icon at the end of the quiz in order to visit the official Arduino website to learn more about this microcontroller.</li>
    </ul>
