@@ -173,12 +173,6 @@ The contrast checker was used to make sure that the contrast is sufficient and t
    </ul>
    <hr>
 
-# **Responsiveness**
-   <ul>
-      <li>The responsive design tests were carried out manually with <a href="https://developer.chrome.com/docs/devtools">Google Chrome DevTools</a> and <a href="https://responsivedesignchecker.com/">Responsive Web Design Checker</a>. No issues were found during the tests therefore it is confirmed that this website is designed to be responsive on all device screen sizes.</li>
-   </ul>
-   <hr>
-
  # **Technologies Used**  
    <ul>
    <li><a href="https://en.wikipedia.org/wiki/HTML">HTML</a></li>
@@ -295,6 +289,12 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 <li>Each section of the website has been verified as readable and easy to navigate.</li>
 </ul>
 <hr>
+
+# **Responsiveness**
+   <ul>
+      <li>The responsive design tests were carried out manually with <a href="https://developer.chrome.com/docs/devtools">Google Chrome DevTools</a> and <a href="https://responsivedesignchecker.com/">Responsive Web Design Checker</a>. No issues were found during the tests therefore it is confirmed that this website is designed to be responsive on all device screen sizes.</li>
+   </ul>
+   <hr>
 
 # **Validator Testing** 
 <ul>
