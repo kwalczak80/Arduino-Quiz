@@ -276,6 +276,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
    <hr>
 
 # **Testing** 
+<h2>Web browsers testing</h2>
 <ul>
 <li>The website has been tested on each of these browsers and was found to work correctly:</li>
 <ul>
@@ -290,13 +291,13 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 </ul>
 <hr>
 
-# **Responsiveness**
+<h2>Responsiveness</h2>
    <ul>
       <li>The responsive design tests were carried out manually with <a href="https://developer.chrome.com/docs/devtools">Google Chrome DevTools</a> and <a href="https://responsivedesignchecker.com/">Responsive Web Design Checker</a>. No issues were found during the tests therefore it is confirmed that this website is designed to be responsive on all device screen sizes.</li>
    </ul>
    <hr>
 
-# **Validator Testing** 
+<h2>Validator Testing</h2> 
 <ul>
 <li>HTML - when using the official <a href="https://validator.w3.org/"> W3C Validator</a>, no errors or warnings were found during the code validation process.</li>
 
@@ -310,7 +311,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 </ul>
 <hr>
 
-# **Lighthouse testing**
+<h2>Lighthouse testing</h2>
 <p>The Lighthouse tool was used to assess the website's accessibility and the results are shown below.</p>
 <ul>
    <li>Mobile</li>
@@ -323,12 +324,38 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 <hr>
 
 # **Testing User Stories from the User Experience (UX) Section**
-<ul>
-   <li>As a user, I would like to play this quiz regardless of the device screen size I'm using.</li>
+   <h2>As a user, I would like to play this quiz regardless of the device screen size I'm using.</h2>
    <ul>
-      <li>The Arduino Quiz website allows the user to display its content on a wide variety of display sizes, including mobile phones, tablets, laptops, and desktops. The layout of the page can change depending on the display resolution.</li>
+   <li>Plan</li>
+   <p>The main goal I had when planning this project was that the Arduino quiz website would work on a variety of devices, starting with mobile phones and ending with large screens of desktop computers.</p>
+   <li>Implementation</li>
+   <p>When creating this quiz, the main idea was to create a website that would be correctly displayed on any mobile phone screen size. Once that was achieved, I focused on higher resolution devices next. The intended goals were achieved thanks to the use of appropriate tools, simulating the display of a website on various devices, and the appropriate configuration of media inquiries.</p>
+   <li>Testing</li>
+   <p>The Arduino quiz website was tested using the tools listed below.</p>
+   <ul>
+      <li><a href="https://developer.chrome.com/docs/devtools/">Chrome Dev Tools</a></li>
+      <li><a href="http://ami.responsivedesign.is">Am I Responsive?</a></li>
+      <li><a href="https://responsivedesignchecker.com">Responsive Website Design Checker</a>
    </ul>
-      <li>As a user, I would like to easily understand the quiz rules.</li>
+<li>Result</li>
+<p>After performing many tests, I confirm that the assumptions contained in the initial plan have been achieved</p>
+<li>Verdict</li>
+<p>The Arduino Quiz website allows the user to display its content on a wide variety of display sizes, including mobile phones, tablets, laptops, and desktops. The layout of the page can change depending on the display resolution.</p>
+   </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <h2>As a user, I would like to easily understand the quiz rules.</h2>
    <ul>
       <li>In the welcome section, before a quiz is taken, the user is given an overview of how the quiz is to be completed.</li>
    </ul>
@@ -348,7 +375,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
    <ul>
       <li>The user can click the icon at the end of the quiz in order to visit the official Arduino website to learn more about this microcontroller.</li>
    </ul>
-</ul>
+
 <hr>
 
 # **Media**
