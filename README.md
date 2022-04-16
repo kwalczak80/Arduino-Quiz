@@ -154,7 +154,7 @@
   <li>Introduce different levels of the quiz i.e., easy, moderate, expert – where users with different experience can choose the quiz they want to take.</li>
   <li>To have a minimum of 30 questions for each category mentioned above.</li>
   <li>To have all quiz questions in separate files (easier maintenance, update, etc.)</li>
-  <li>To have local storage implemented to save the user quiz results along with the leader board section which can show the highest results for each quiz category.</li>
+  <li>To have local storage implemented to save the user quiz results along with the leader board section, which can show the highest results for each quiz category.</li>
   <li>To have a functionality where the question-related picture is displayed on the screen. See the example below.</li>
 
   ![Feature to be implemented](docs/screenshots/feature-to-be-implemented.png "Feature to be implemented")    
@@ -264,7 +264,6 @@
 <hr>
 
 # **Testing** 
-<h2>Web browsers testing</h2>
 <ul>
   <li>The website has been tested on each of these browsers and was found to work correctly:</li>
   <ul>
@@ -284,18 +283,23 @@
 <h2>Validator Testing</h2>
 <ul>
   <li>HTML - when using the official <a href="https://validator.w3.org/"> W3C Validator</a>, no errors or warnings were found during the code validation process.</li>
+
   ![HTML validator check results](docs/screenshots/html-validator-check.png "HTML validator check results") 
   <li>CSS - when using the official <a href="https://jigsaw.w3.org/css-validator/"> (Jigsaw) Validator.</a>, no errors or warnings were found during the code validation process.</li>
+
   ![CSS validator check results](docs/screenshots/css-validator-check.png "CSS validator check results")
   <li>JSHint - when using the official <a href="https://jshint.com/"> JavaScript Code Quality Tool</a> I discovered missing semi-colons on lines 84, 142, 161, 173, 197 and 200.This issue was corrected immediately. No other warnings or errors are presented.</li>
+
   ![JSHint validator check results](docs/screenshots/jshint-validator-testing.png "JSHint validator check results")
 </ul>
 <h2>Lighthouse testing</h2>
 <p>The Lighthouse tool was used to assess the website's accessibility and the results are shown below.</p>
 <ul>
   <li>Mobile</li>
+
   ![Lighthouse testing mobile](docs/screenshots/lighthouse-testing-mobile.png "Lighthouse testing mobile")
   <li>Desktop</li>
+
   ![Lighthouse testing desktop](docs/screenshots/lighthouse-testing-desktop.png "Lighthouse testing desktop")
 </ul>
 <hr>
@@ -427,6 +431,6 @@
   <li>Code Institute's <a href="https://app.slack.com/client/">Slack</a> community for their support. Special thanks to Pedro Ferreira from jan-2022-ucd class.</li>
   <li>Javascript tutorials on <a href="https://www.w3schools.com/js/">W3 Schools</a> as an additional source of knowledge.</li>
   <li>Traversy Media <a href="https://www.youtube.com/c/TraversyMedia">Tutorials</a> that helped me better understand DOM manipulation.</li>
-  <li>Code Wizard <a href="https://www.youtube.com/watch?v=LxQK4F0xwmU">How to Shuffle an Array in JavaScript</a> tutorial.</li>
+  <li>Code from <a href="https://www.youtube.com/watch?v=LxQK4F0xwmU">How to Shuffle an Array in JavaScript</a> was used to randomize quiz questions.</li>
 </ul>
 <hr>
