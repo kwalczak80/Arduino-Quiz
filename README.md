@@ -412,13 +412,6 @@ Above the section displaying the question, I also decided to add a section that 
   <li><strong>Verdict</strong></li>
   <p>The user can visit the official Arduino website by clicking the Arduino icon at the end of the quiz to learn more about the microcontroller or find answers to the questions posed in the quiz.</p>
   </ul>
-   
-   
-   
-   <ul>
-      <li>The user can click the icon at the end of the quiz in order to visit the official Arduino website to learn more about this microcontroller.</li>
-   </ul>
-
 <hr>
 
 # **Media**
