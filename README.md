@@ -53,8 +53,7 @@
 <hr>
 
 # **Design**
-   <ul>
-      <li><strong>Typography</strong></li>
+<h2>Typography</h2>
       <ul>
          <li>I visited the <a href="https://fonts.google.com/">Google fonts </a> website to explore available font options for my project. After consideration, three different font types were chosen to be used in different sections of the website.</li>
          <li>The <a href="https://fonts.google.com/?query=teko">Teko</a> font is used to display the quiz name.</li>
@@ -62,19 +61,14 @@
          <li>The <a href="https://fonts.google.com/?query=Roboto">Roboto</a> font is used to display all other text information.</li>
          <li>All the fonts mentioned above were imported from the official Google fonts website.</li>
       </ul>
-   </ul>
- <ul>
-      <li><strong>Background</strong></li>
+
+<h2>Background</h2>
       <ul>
          <li>I initially intended to use a picture as the background for the page. Nevertheless, since the quiz is about electronic devices, I dropped this idea as I wanted to have a more attractive website. Thus, I decided to implement an animated background that is more relevant to the website's topic. After doing some research, I found an interesting video showing some sort of motherboard electronic circuit with animated blue lines indicating the flow of electric current. Since this video is aligned with the website topic and at the same time does not distract the user from other parts of the website, I decided to use it as a looped video background for the website.</li>
       </ul>
-</ul>
 
 ![Background](docs/screenshots/background-screenshot.png "Background")
- <ul>
-      <li><strong>Colour Scheme</strong></li>
-      <ul>
-      <li>Gradient</li>
+<h2>Gradient</h2>
          <ul>
          <li>I used <a href="https://cssgradient.io/">CSS gradient</a> website to create a gradient background for my project. This gradient is used as a background for the quiz information being displayed on the page.
 The contrast checker was used to make sure that the contrast is sufficient and that there are no issues with the website readability.
@@ -82,7 +76,8 @@ The contrast checker was used to make sure that the contrast is sufficient and t
          </ul>
 
 ![Gradient background](docs/screenshots/gradient.png "Gradient Background")
-            <li>Colour Scheme</li>
+<h2>Colour Scheme</h2>
+
 ![Scheme colours](docs/screenshots/main-website-colors.png "Main website colors")
          <ul>
             <li>#1E1E1E – color was used for all the text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
@@ -90,6 +85,7 @@ The contrast checker was used to make sure that the contrast is sufficient and t
             <li>#F7F7F7 - color was used to display the text information on the buttons</li>
             <li>#088308 - color was used to highlight correctly answered question</li>
             <li>#D10F0F - color was used to highlight incorrectly answered question</li>
+            <li>#CECFE27E - color was used as a background for player name input field </li>
          </ul>
       </ul>
 </ul>
@@ -400,7 +396,7 @@ Above the section displaying the question, I also decided to add a section that 
 
 <h3>As a user, I would like to visit the official Arduino website where I can information regarding questions asked in the quiz.</h3>
    
-     <ul>
+   <ul>
   <li><strong>Plan</strong></li>
   <p>If the user wants further information about the Arduino microcontroller, they should be able to go to the official Arduino website.</p>
   <li><strong>Implementation</strong></li>
