@@ -76,10 +76,10 @@
 <ul>
   <li>#1E1E1E – color was used for all the text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
   <li>#17608A - color was used as a background for all the buttons used on the website.</li>
-  <li>#F7F7F7 - color was used to display the text information on the buttons</li>
-  <li>#088308 - color was used to highlight correctly answered question</li>
-  <li>#D10F0F - color was used to highlight incorrectly answered question</li>
-  <li>#CECFE27E - color was used as a background for the player name input field </li>
+  <li>#F7F7F7 - color was used to display the text information on the buttons.</li>
+  <li>#088308 - color was used to highlight correctly answered question.</li>
+  <li>#D10F0F - color was used to highlight incorrectly answered question.</li>
+  <li>#CECFE27E - color was used as a background for the player name input field.</li>
 </ul>
 <hr>
 
@@ -136,7 +136,7 @@
 <ul>
   <li>The quiz will end once the 10 questions are answered.</li>
   <li>The summary of correctly answered questions will be displayed on the screen.</li>
-  <li>A message will be dislpayed on the screen if none of the questions were answered correctly</li>
+  <li>A message will be dislpayed on the screen if none of the questions were answered correctly.</li>
   <li>The user has two choices at this stage:</li>
   <ul>
     <li>To take the quiz again if they want to improve their score – the <strong>Try again</strong> button will start a new quiz.</li>
@@ -228,37 +228,37 @@
 <ul>
   <li><a href="https://jsfiddle.net/">JS Fiddle</a></li>
   <ul>
-    <li>Used as a playground to test the code</li>
+    <li>The website was used as a playground to test the code.</li>
   </ul>
 </ul>
 <ul>
   <li><a href="https://validator.w3.org/">W3C HTML Validation Service</a></li>
   <ul>
-    <li>Used to validate HTML code</li>
+    <li>The tool was used to validate HTML code.</li>
   </ul>
 </ul>
 <ul>
   <li><a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a></li>
   <ul>
-    <li>Used to validate CSS code</li>
+    <li>The tool was used to validate CSS code</li>
   </ul>
 </ul>
 <ul>
   <li><a href="https://jigsaw.w3.org/">Jigsaw</a></li>
   <ul>
-    <li>Used to validate Javascript code</li>
+    <li>The tool was used to validate Javascript code</li>
   </ul>
 </ul>
 <ul>
   <li><a href="http://ami.responsivedesign.is/">Am I responsive design</a></li>
   <ul>
-    <li>Used to test the website responsiveness</li>
+    <li>The tool was used to test responsiveness of the Arduino Quiz website.</li>
   </ul>
 </ul>
 <ul>
   <li><a href="https://responsivedesignchecker.com/"> Responsive Web Design Checker</a></li>
   <ul>
-    <li>Another tool which offers more screen options to test the website responsiveness</li>
+    <li>Another tool which offers more screen options to test the website responsiveness.</li>
   </ul>
 </ul>
 <hr>
@@ -319,7 +319,7 @@
     <li><a href="https://responsivedesignchecker.com">Responsive Website Design Checker</a>
   </ul>
   <li><strong>Result</strong></li>
-  <p>After performing many tests, I confirm that the assumptions contained in the initial plan have been achieved</p>
+  <p>After performing many tests, I confirm that the assumptions contained in the initial plan have been achieved.</p>
   <li><strong>Verdict</strong></li>
   <p>The Arduino Quiz website allows the user to display its content on a wide variety of display sizes, including mobile phones, tablets, laptops, and desktops. The layout of the page can change depending on the display resolution.</p>
 </ul>
