@@ -289,13 +289,11 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 <li>The website is fully operational and its design makes navigation easy for the user.</li>
 <li>Each section of the website has been verified as readable and easy to navigate.</li>
 </ul>
-<hr>
 
 <h2>Responsiveness</h2>
    <ul>
       <li>The responsive design tests were carried out manually with <a href="https://developer.chrome.com/docs/devtools">Google Chrome DevTools</a> and <a href="https://responsivedesignchecker.com/">Responsive Web Design Checker</a>. No issues were found during the tests therefore it is confirmed that this website is designed to be responsive on all device screen sizes.</li>
    </ul>
-   <hr>
 
 <h2>Validator Testing</h2> 
 <ul>
@@ -309,7 +307,6 @@ The contrast checker was used to make sure that the contrast is sufficient and t
 
 ![JSHint validator check results](docs/screenshots/jshint-validator-testing.png "JSHint validator check results")
 </ul>
-<hr>
 
 <h2>Lighthouse testing</h2>
 <p>The Lighthouse tool was used to assess the website's accessibility and the results are shown below.</p>
@@ -388,10 +385,31 @@ Above the section displaying the question, I also decided to add a section that 
 </ul>
 
 <h3>As a user, I would like to have a chance to retake the quiz to improve my score.</h3>
-   <ul>
-      <li>If the user wishes to improve their score, they have the option to try again.</li>
-   </ul>
+  <ul>
+  <li><strong>Plan</strong></li>
+  <p>If the user wants to improve their scores, provide them an option to retake the quiz.</p>
+  <li><strong>Implementation</strong></li>
+  <p>I chose to include a "Try again" button in the summary quiz area to allow users to retry the quiz.</p>
+  <li><strong>Testing</strong></li>
+  <p>The "Try again" button has been tested many times to verify that a new quiz is loaded each time when the button is clicked.</p>
+  <li><strong>Result</strong></li>
+  <p>The implemented “try again” button is working correctly and initiates a new quiz each time when clicked.</p>
+  <li><strong>Verdict</strong></li>
+  <p>If the user wishes to improve their score, they have the option to try again.</p>
+  </ul>
+
 <h3>As a user, I would like to visit the official Arduino website where I can information regarding questions asked in the quiz.</h3>
+   
+     <ul>
+  <li><strong>Plan</strong></li>
+  <li><strong>Implementation</strong></li>
+  <li><strong>Testing</strong></li>
+  <li><strong>Result</strong></li>
+  <li><strong>Verdict</strong></li>
+  </ul>
+   
+   
+   
    <ul>
       <li>The user can click the icon at the end of the quiz in order to visit the official Arduino website to learn more about this microcontroller.</li>
    </ul>
