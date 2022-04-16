@@ -402,10 +402,15 @@ Above the section displaying the question, I also decided to add a section that 
    
      <ul>
   <li><strong>Plan</strong></li>
+  <p>If the user wants further information about the Arduino microcontroller, they should be able to go to the official Arduino website.</p>
   <li><strong>Implementation</strong></li>
+  <p>I opted to include an icon with the Arduino symbol and written information in the quiz summary area, informing the user that clicking on the icon will take them to the official Arduino website.</p>
   <li><strong>Testing</strong></li>
+  <p>Initial tests were not successful as the official Arduino website was not opening in a new tab. Following a thorough review of the HTML code, I discovered that the link closing tags were incorrectly placed, resulting in the page was not displayed in a new tab. The issue was solved, and subsequent tests confirmed that the Arduino website is now opening correctly.</p>
   <li><strong>Result</strong></li>
+  <p>The tests confirmed that when the user clicks on the Arduino icon the official Arduino website will be displayed in a new tab.</p>
   <li><strong>Verdict</strong></li>
+  <p>The user can visit the official Arduino website by clicking the Arduino icon at the end of the quiz to learn more about the microcontroller or find answers to the questions posed in the quiz.</p>
   </ul>
    
    
