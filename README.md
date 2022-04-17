@@ -131,6 +131,12 @@
 <li>The score area has a different layout depending on which screen size the website is displayed. Therefore, the score results can be displayed in a row on bigger screens (see above) or in a column on smaller screens (mobile phones) as shown below.</li>
 
 ![Score area layout on smaller screens](docs/screenshots/score-area-layout-on-smaller-screens.png "Score area layout on smaller screens")
+<h2>Error handling</h2>
+<ul>
+<li>If quiz questions cannot be loaded correctly, an error message will appear on the screen to inform the user about this fact.</li>
+</ul>
+
+![Error message](docs/screenshots/error-message.png "Error message")
 <h2>Randomized quiz questions</h2>
 <ul>
   <li>Each time when the new quiz starts the questions are displayed randomly from the list. This is done to make sure that the user will not memorize the answers from the previous quiz. The special Java script function is responsible to randomize questions for each quiz.</li>
