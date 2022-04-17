@@ -80,7 +80,7 @@
   <li>#17608A - color was used as a background for all the buttons used on the website.</li>
   <li>#F7F7F7 - color was used to display the text information on the buttons.</li>
   <li>#088308 - color was used to display the number of correctly answered questions.</li>
-  <li>#D10F0F - color was used to display the number of incorrectly answered question.</li>
+  <li>#D10F0F - color was used to display the number of incorrectly answered questions.</li>
   <li>#CECFE27E - color was used as a background for the player name input field.</li>
   </ul>
 </ul>
@@ -102,7 +102,7 @@
 ![Welcome section](docs/screenshots/welcome-section.png "Welcome section")
 <h2>Quiz rules</h2>
 <ul>
-  <li>To personalize the user experience the section with quiz rules is displayed using the user name entered in welcome screen.</li>
+  <li>To personalize the user experience the section with quiz rules is displayed using the user name entered on the welcome screen.</li>
   <li>The quiz rules are clearly explained to the user and are grouped as a list.</li>
   <li>Once the user is familiar with the quiz rules they are invited to click on the <strong>“I understand. Let’s play”</strong> button in order to start the quiz. </li>
 </ul>
@@ -118,7 +118,7 @@
   </ul>
   <li>The quiz is navigated question by question.</li>
   <li>Each question must be answered to move to the next question.</li>
-  <li>To answer the question the user must select their choice by using the radio button and click the <strong>Submit</strong> button in order to submit the answer.</li>
+  <li>To answer the question the user must select their choice by using the radio button and clicking the <strong>Submit</strong> button in order to submit the answer.</li>
 </ul>
 
 ![Quiz questions](docs/screenshots/quiz-section.png "Quiz questions")
