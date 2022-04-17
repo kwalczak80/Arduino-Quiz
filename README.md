@@ -380,11 +380,11 @@
   <li><strong>Plan</strong></li>
   <p>If the user wants to improve their scores, provide them an option to retake the quiz.</p>
   <li><strong>Implementation</strong></li>
-  <p>I chose to include a "Try again" button in the summary quiz area to allow users to retry the quiz.</p>
+  <p>I chose to include a <strong>Try again</strong> button in the summary quiz area to allow users to retry the quiz.</p>
   <li><strong>Testing</strong></li>
   <p>The "Try again" button has been tested many times to verify that a new quiz is loaded each time when the button is clicked.</p>
   <li><strong>Result</strong></li>
-  <p>The implemented “try again” button is working correctly and initiates a new quiz each time when clicked.</p>
+  <p>The implemented <strong>Try again</strong> button is working correctly and initiates a new quiz each time when clicked.</p>
   <li><strong>Verdict</strong></li>
   <p>If the user wishes to improve their score, they have the option to try again.</p>
 </ul>
