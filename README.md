@@ -24,7 +24,7 @@
       <li>As a user, I would like to track the quiz progress.</li>
       <li>As a user, I would like to know when the quiz is complete.</li>
       <li>As a user, I would like to have a chance to retake the quiz to improve my score.</li>
-      <li>As a user, I would like to visit the official Arduino website where I can information regarding the questions asked in the quiz.</li>
+      <li>As a user, I would like to visit the official Arduino website where I can find information regarding the questions asked in the quiz.</li>
     </ul>
   </li>
 </ul>
@@ -381,7 +381,7 @@
   <li><strong>Verdict</strong></li>
   <p>If the user wishes to improve their score, they have the option to try again.</p>
 </ul>
-<h3>As a user, I would like to visit the official Arduino website where I can information regarding questions asked in the quiz.</h3>
+<h3>As a user, I would like to visit the official Arduino website where I can find information regarding the questions asked in the quiz.</h3>
 <ul>
   <li><strong>Plan</strong></li>
   <p>If the user wants further information about the Arduino microcontroller, they should be able to go to the official Arduino website.</p>
