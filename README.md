@@ -419,12 +419,12 @@
 <p>The project was deployed to GitHub pages using the following steps:</p>
 <ol type="1">
   <li>Log in to GitHub</li>
-  <li>On the left-hand side, click the Clonmel Hiking Club project.</li>
+  <li>On the left-hand side, click the Arduino Quiz project.</li>
   <li>At the top of the page locate the <strong>Settings</strong> button in the menu section.</li>
-  <li>Scroll down to find <strong>GitHub Pages</strong> section and click on <strong>Check it out here!</strong></li>
+  <li>Scroll down to find the <strong>GitHub Pages</strong> section and click on <strong>Check it out here!</strong></li>
   <li>Under <strong>Source</strong>, select <strong>Main</strong> from the dropdown branch menu.</li>
   <li>Click <strong>Save</strong> and the page will refresh automatically.</li>
-  <li>Scroll back down through the page to locate published the <a href="https://github.com/kwalczak80/Arduino-Quiz">Arduino Quiz </a>website in the "GitHub Pages" section.</li>
+  <li>Scroll back down through the page to locate the published <a href="https://github.com/kwalczak80/Arduino-Quiz">Arduino Quiz </a>website in the "GitHub Pages" section.</li>
 </ol>
 <hr>
 
