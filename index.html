@@ -34,17 +34,17 @@
             <div class="flex-column">
                 <h1 id="player" class="text-center">Player Name</h1>
                 <h2 class="text-center">Rules of this quiz are very simple:</h2>
-                <ul>
-                    <li>During the quiz, you will be asked to answer ten questions related to the Arduino microcontroller with four possible answers to each question.</li>
-                    <li>Select the answer you think is the correct answer.</li>
-                    <li>Each question must be answered to move to the next question.</li>
-                    <li>Once the answer is selected hit the <strong>Submit </strong>button to move to the next
+                <ul id="list-of-rules">
+                    <li class="rule-text">During the quiz, you will be asked to answer ten questions related to the Arduino microcontroller with four possible answers to each question.</li>
+                    <li class="rule-text">Select the answer you think is the correct answer.</li>
+                    <li class="rule-text">Each question must be answered to move to the next question.</li>
+                    <li class="rule-text">Once the answer is selected hit the <strong>Submit </strong>button to move to the next
                         question.</li>
-                    <li>You can check your answers in the scoreboard under the submit button after you answer the
+                    <li class="rule-text">You can check your answers in the scoreboard under the submit button after you answer the
                         question.</li>
-                    <li>Remember - there are no time restrictions so take as much time as you need to to complete this
+                    <li class="rule-text">Remember - there are no time restrictions so take as much time as you need to to complete this
                         quiz.</li>
-                    <li>Best of luck !!</li>
+                    <li class="rule-text">Best of luck !!</li>
                 </ul>
                 <div class="flex-center">
                     <button type="button" aria-label="Quiz start button" id="quiz-start">I understand. Let's
@@ -63,19 +63,19 @@
                     <ul id="options">
                         <li>
                             <input class="answer" type="radio" name="answer" id="a">
-                            <label for="a" id="option-a">Option A</label>
+                            <label class="possible-answer" for="a" id="option-a">Option A</label>
                         </li>
                         <li>
                             <input class="answer" type="radio" name="answer" id="b">
-                            <label for="b" id="option-b">Option B</label>
+                            <label class="possible-answer" for="b" id="option-b">Option B</label>
                         </li>
                         <li>
                             <input class="answer" type="radio" name="answer" id="c">
-                            <label for="c" id="option-c">Option C</label>
+                            <label class="possible-answer" for="c" id="option-c">Option C</label>
                         </li>
                         <li>
                             <input class="answer" type="radio" name="answer" id="d">
-                            <label for="d" id="option-d">Option D</label>
+                            <label class="possible-answer" for="d" id="option-d">Option D</label>
                         </li>
                     </ul>
                 </div>
@@ -89,7 +89,7 @@
             </div>
         </section>
 
-        <section id="summary" class="container hide-content ">
+        <section id="summary" class="container hide-content">
             <div class="text-center flex-center flex-column">
                 <h1 id="quiz-completion">Congratulations</h1>
                 <div id="quiz-summary">
