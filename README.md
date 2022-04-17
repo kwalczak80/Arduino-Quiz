@@ -42,7 +42,7 @@
   <ul>
     <li>The desktop wireframes showing all the quiz sections can be found <a href="docs/wireframes/arduino-quiz-wireframe-for-desktop-all-sections.pdf">here</a></li>
     <li>The tablet/ipad wireframes showing all the sections can be found <a href="docs/wireframes/arduino-quiz-wireframe-for-tablet-all-sections.pdf">here</a></li>
-    <li>The mobile wireframes showing all the quiz sections found <a href="docs/wireframes/arduino-quiz-wireframe-for-mobile-all-sections.pdf">here</a></li>
+    <li>The mobile wireframes showing all the quiz sections can be found <a href="docs/wireframes/arduino-quiz-wireframe-for-mobile-all-sections.pdf">here</a></li>
   </ul>
 </ul>
 <hr>
@@ -64,7 +64,7 @@
 ![Background](docs/screenshots/background-screenshot.png "Background")
 <h2>Gradient</h2>
 <ul>
-  <li>I used <a href="https://cssgradient.io/">CSS gradient</a> website to create a gradient background for my project. This gradient is used as a background for the quiz information being displayed on the page.
+  <li>I used the <a href="https://cssgradient.io/">CSS gradient</a> website to create a gradient background for my project. This gradient is used as a background for the quiz information being displayed on the page.
     The contrast checker was used to make sure that the contrast is sufficient and that there are no issues with the website readability.
   </li>
 </ul>
@@ -79,8 +79,8 @@
   <li>#1E1E1E – color was used for all the text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
   <li>#17608A - color was used as a background for all the buttons used on the website.</li>
   <li>#F7F7F7 - color was used to display the text information on the buttons.</li>
-  <li>#088308 - color was used to highlight correctly answered question.</li>
-  <li>#D10F0F - color was used to highlight incorrectly answered question.</li>
+  <li>#088308 - color was used to display the number of correctly answered questions.</li>
+  <li>#D10F0F - color was used to display the number of incorrectly answered question.</li>
   <li>#CECFE27E - color was used as a background for the player name input field.</li>
   </ul>
 </ul>
