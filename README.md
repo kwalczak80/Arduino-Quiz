@@ -382,7 +382,7 @@
   <li><strong>Implementation</strong></li>
   <p>I chose to include a <strong>Try again</strong> button in the summary quiz area to allow users to retry the quiz.</p>
   <li><strong>Testing</strong></li>
-  <p>The "Try again" button has been tested many times to verify that a new quiz is loaded each time when the button is clicked.</p>
+  <p>The <strong>Try again</strong> button has been tested many times to verify that a new quiz is loaded each time when the button is clicked.</p>
   <li><strong>Result</strong></li>
   <p>The implemented <strong>Try again</strong> button is working correctly and initiates a new quiz each time when clicked.</p>
   <li><strong>Verdict</strong></li>
