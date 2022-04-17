@@ -403,6 +403,12 @@
 </ul>
 <hr>
 
+# **Bugs**
+<h3>Solved bugs</h3>
+<ul>
+<li>The bug I encountered was related to incorrectly placed link closing tags in the HTML file. This prevented the Arduino website from opening in a new tab. The issue was fixed immediately following the code review.</li>
+</ul>
+
 # **Media**
 <ul>
   <li>The video background that is used on the Arduino Quiz website was downloaded from the <a href="https://pixabay.com/videos/circuit-electronics-digital-27725/"> pixabay</a> website.</li>
