@@ -97,6 +97,7 @@
   <li>The user is asked to enter their name before the quiz can commence. </li>
   <li>Only uppercase and lowercase letters and spaces are accepted when entering the user name. Special characters, numbers, etc. will not be accepted.</li>
   <li>Once the user name is entered and submit button is clicked, the current section will no longer be visible.</li>
+  <li>All the buttons(in each quiz section) are visually highlighted by a hover effect when the user hovers over them.</li>
 </ul>
 
 ![Welcome section](docs/screenshots/welcome-section.png "Welcome section")
@@ -133,13 +134,13 @@
 ![Score area layout on smaller screens](docs/screenshots/score-area-layout-on-smaller-screens.png "Score area layout on smaller screens")
 <h2>Error handling</h2>
 <ul>
-<li>If quiz questions cannot be loaded correctly, an error message will appear on the screen to inform the user about this fact.</li>
+<li>If the quiz questions cannot be loaded correctly, an error message will appear on the screen to inform the user about this fact.</li>
 </ul>
 
 ![Error message](docs/screenshots/error-message.png "Error message")
 <h2>Randomized quiz questions</h2>
 <ul>
-  <li>Each time when the new quiz starts the questions are displayed randomly from the list. This is done to make sure that the user will not memorize the answers from the previous quiz. The special Java script function is responsible to randomize questions for each quiz.</li>
+  <li>Each time when a new quiz starts the questions are displayed randomly from the list. This is done to make sure that the user will not memorize the answers from the previous quiz. The special Java script function is responsible to randomize questions for each quiz.</li>
 </ul>
 <h2>Quiz completion</h2>
 <ul>
