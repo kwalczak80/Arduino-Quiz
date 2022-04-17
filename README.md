@@ -97,7 +97,7 @@
   <li>The user is asked to enter their name before the quiz can commence. </li>
   <li>Only uppercase and lowercase letters and spaces are accepted when entering the user name. Special characters, numbers, etc. will not be accepted.</li>
   <li>Once the user name is entered and submit button is clicked, the current section will no longer be visible.</li>
-  <li>All the buttons(in each quiz section) are visually highlighted by a hover effect when the user hovers over them.</li>
+  <li>The button (in each section of the quiz) is visually highlighted by the hover effect when the user hovers over it.</li>
 </ul>
 
 ![Welcome section](docs/screenshots/welcome-section.png "Welcome section")
