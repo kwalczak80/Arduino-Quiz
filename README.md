@@ -324,7 +324,7 @@
   <li><strong>Result</strong></li>
   <p>After performing many tests, I confirm that the assumptions contained in the initial plan have been achieved.</p>
   <li><strong>Verdict</strong></li>
-  <p>The Arduino Quiz website allows the user to display its content on a wide variety of display sizes, including mobile phones, tablets, laptops, and desktops. The layout of the page can change depending on the display resolution.</p>
+  <p>The Arduino Quiz website allows the user to display its content on a wide variety of screen sizes, including mobile phones, tablets, laptops, and desktops. The layout of the page can change depending on the display resolution.</p>
 </ul>
 <h3>As a user, I would like to easily understand the quiz rules.</h3>
 <ul>
@@ -434,6 +434,6 @@
   <li>Code Institute's <a href="https://app.slack.com/client/">Slack</a> community for their support. Special thanks to Pedro Ferreira from jan-2022-ucd class.</li>
   <li>Javascript tutorials on <a href="https://www.w3schools.com/js/">W3 Schools</a> as an additional source of knowledge.</li>
   <li>Traversy Media <a href="https://www.youtube.com/c/TraversyMedia">Tutorials</a> that helped me better understand DOM manipulation.</li>
-  <li>Code from <a href="https://www.youtube.com/watch?v=LxQK4F0xwmU">How to Shuffle an Array in JavaScript</a> was used to randomize quiz questions.</li>
+  <li>Code from <a href="https://www.youtube.com/watch?v=LxQK4F0xwmU">How to Shuffle an Array in JavaScript</a> was used in the Arduino quiz project to randomize quiz questions.</li>
 </ul>
 <hr>
