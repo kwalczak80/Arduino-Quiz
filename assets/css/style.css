@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Teko:wght@600&display=swap');
 
 /*General settings*/
-
 :root {
     --primary-text-color: #1e1e1e;
     --gradient-color-top: #5ef3e4;
@@ -9,7 +8,7 @@
     --button-backgroung-color: #17608a;
     --button-text-color: #f7f7f7;
     --input-field-background-color: #fafafa;
-    --playername-background-color: rgba(206, 207, 226, 0.494);
+    --player-name-background-color: #cecfe27e;
     --border-color: #333;
     --button-hover-shadow-color: #31646d99;
     --border-top-color: #585858;
@@ -94,13 +93,11 @@
     border-radius: 0.5rem;
   }
 
- /*Home section styles*/ 
+ /*Welcome section and quiz rules*/ 
   .quiz-name {
     font-size: 6rem;
   }
-      
-  /*Home section styles*/ 
-
+ 
   #list-of-rules {
     list-style-type: none;
     padding: 2rem;
@@ -138,13 +135,13 @@
   margin: 0.5rem;
   font-family: "Roboto Condensed", sans-serif;
 }
-
+/*
 input {
   background-color: var(--input-field-background-color);
 }
-
+*/
 input#playername {
-  background-color: var(--playername-background-color);
+  background-color: var(--player-name-background-color);
   height: 3.5rem;
   border-radius: 0.5rem;
   font-size: 2.5rem;
@@ -173,7 +170,6 @@ button:hover {
 /*Score area*/
 #score-area {
   flex-direction: column;
-  /*justify-content: space-around;*/
   font-size: 1.8rem;
   border-top: 2px solid var(--border-top-color);
   align-items: center;
@@ -184,7 +180,8 @@ button:hover {
   padding: 0.3rem;
 }
 
-#arduino-information {
+/*Quiz summary*/
+#quiz-summary-information {
   justify-content: space-around;
   font-size: 2rem;
   border-top: 2px solid var(--border-top-color);
@@ -197,7 +194,7 @@ button:hover {
   width: auto;
 }
 
-  /*Background video*/
+/*Background video*/
   #background-video {
     position: fixed;
     right: 0;
@@ -208,6 +205,7 @@ button:hover {
     overflow: hidden;
   }
 
+/*Media queries*/  
 @media screen and (min-width: 600px) {
   .quiz-name {
     font-size: 5rem;
@@ -280,7 +278,7 @@ button:hover {
     transform: scale(0.8);
   }
 
-  #arduino-information {
+  #quiz-summary-information {
     font-size: 1.7rem;
     padding: 0.5rem;
     margin: 0.5rem;
@@ -358,7 +356,7 @@ button:hover {
     transform: scale(0.9);
   }
 
-  #arduino-information {
+  #quiz-summary-information {
     font-size: 2.3rem;
   }
 }
@@ -419,7 +417,7 @@ button:hover {
       transform: scale(1);
     }
   
-    #arduino-information {
+    #quiz-summary-information {
       font-size: 2.7rem;
     }
   }
