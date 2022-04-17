@@ -139,7 +139,7 @@
 <ul>
   <li>The quiz will end once the 10 questions are answered.</li>
   <li>The summary of correctly answered questions will be displayed on the screen.</li>
-  <li>A message will be dislpayed on the screen if none of the questions were answered correctly.</li>
+  <li>A message will be displayed on the screen if none of the questions were answered correctly.</li>
   <li>The user has two choices at this stage:</li>
   <ul>
     <li>To take the quiz again if they want to improve their score – the <strong>Try again</strong> button will start a new quiz.</li>
@@ -154,7 +154,7 @@
 
 # **Features to be implemented**
 <ul>
-  <li>Introduce different levels of the quiz i.e., easy, moderate, expert – where users with different experience can choose the quiz they want to take.</li>
+  <li>Introduce different levels of the quiz, i.e., easy, moderate, and expert – where users with different experiences can choose the quiz they want to take.</li>
   <li>To have a minimum of 30 questions for each category mentioned above.</li>
   <li>To have all quiz questions in separate files (easier maintenance, update, etc.)</li>
   <li>To have local storage implemented to save the user quiz results along with the leader board section, which can show the highest results for each quiz category.</li>
@@ -201,7 +201,7 @@
 <ul>
   <li><a href="https://www.freeformatter.com/">Free formatter</a></li>
   <ul>
-    <li>An online tool which was used to improve HTML and CSS code presentation.</li>
+    <li>An online tool that was used to improve HTML and CSS code presentation.</li>
   </ul>
 </ul>
 <ul>
@@ -225,7 +225,7 @@
 <ul>
   <li><a href="https://cssgradient.io/">CSS Gradient</a></li>
   <ul>
-    <li>The tool was used to create gradient background for this project.</li>
+    <li>The tool was used to create a gradient background for this project.</li>
   </ul>
 </ul>
 <ul>
@@ -255,13 +255,13 @@
 <ul>
   <li><a href="http://ami.responsivedesign.is/">Am I responsive design</a></li>
   <ul>
-    <li>The tool was used to test responsiveness of the Arduino Quiz website.</li>
+    <li>The tool was used to test the responsiveness of the Arduino Quiz website.</li>
   </ul>
 </ul>
 <ul>
   <li><a href="https://responsivedesignchecker.com/"> Responsive Web Design Checker</a></li>
   <ul>
-    <li>Another tool which offers more screen options to test the website responsiveness.</li>
+    <li>Another tool that offers more screen options to test the website responsiveness.</li>
   </ul>
 </ul>
 <hr>
@@ -291,7 +291,7 @@
   <li>CSS - when using the official <a href="https://jigsaw.w3.org/css-validator/"> (Jigsaw) Validator.</a>, no errors or warnings were found during the code validation process.</li>
 
   ![CSS validator check results](docs/screenshots/css-validator-check.png "CSS validator check results")
-  <li>JSHint - when using the official <a href="https://jshint.com/"> JavaScript Code Quality Tool</a> I discovered missing semi-colons on lines 84, 142, 161, 173, 197 and 200.This issue was corrected immediately. No other warnings or errors are presented.</li>
+  <li>JSHint - when using the official <a href="https://jshint.com/"> JavaScript Code Quality Tool</a> I discovered missing semi-colons on lines 56, 57. This issue was corrected immediately. No other warnings or errors are presented.</li>
 
   ![JSHint validator check results](docs/screenshots/jshint-validator-testing.png "JSHint validator check results")
 </ul>

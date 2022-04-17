@@ -53,8 +53,8 @@ fetch('./assets/data/questions.json')
         loadQuiz();
     })
     .catch((error) => {
-        alert("Couldn't load questions")
-    })
+        alert("Couldn't load questions");
+    });
 
 // Function to load the quiz    
 function loadQuiz() {
