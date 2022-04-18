@@ -32,52 +32,55 @@ let incorrectAnswers = 0;
 
 // Add event listener to the form submit button
 form.addEventListener('submit', function(event) {
-    homeRef.style.display = 'none';
-    quizRulesRef.classList.remove('hide-content');
-    document.querySelector('#player').innerHTML = "Hi " + playerNameRef.value;
-    event.preventDefault();
+  homeRef.style.display = 'none';
+  quizRulesRef.classList.remove('hide-content');
+  document.querySelector('#player').innerHTML = "Hi " + playerNameRef.value;
+  event.preventDefault();
 });
 
-// Add event listener to the submit button to start quiz 
+// Add event listener to the submit button to start the quiz 
 quizStartButtonRef.addEventListener('click', function() {
-    quizRulesRef.classList.add('hide-content');
-    quizRef.classList.remove('hide-content');
+  quizRulesRef.classList.add('hide-content');
+  quizRef.classList.remove('hide-content');
 });
 
-//Pull questions from Json file
+//Pull questions from questions.json file
 fetch('./assets/data/questions.json')
-    .then(res => res.json())
-    .then(data => {
-        questions = data;
-        listOfQuestions = shuffle(questions);
-        loadQuiz();
-    })
-    .catch((error) => {
-        alert("Couldn't load questions");
-    });
+  .then(res => res.json())
+  .then(data => {
+    questions = data;
+    listOfQuestions = shuffle(questions);
+    loadQuiz();
+  })
+  .catch((error) => {
+    alert("Couldn't load questions");
+  });
 
-// Function to load the quiz    
+/**
+ * Function to load the quiz
+ * questions with 
+ * posibble answers  
+ */
 function loadQuiz() {
-    deselectAnswers();
-    const currentQuizData = listOfQuestions[currentQuiz];
-    questionRef.innerText = currentQuizData.question;
-    optionARef.innerText = currentQuizData.a;
-    optionBRef.innerText = currentQuizData.b;
-    optionCRef.innerText = currentQuizData.c;
-    optionDRef.innerText = currentQuizData.d;
-    displayQuestionNumberRef.innerHTML = `<h1>Question ${questionNumber} of ${questions.length}</h1>`;
+  deselectAnswers();
+  const currentQuizData = listOfQuestions[currentQuiz];
+  questionRef.innerText = currentQuizData.question;
+  optionARef.innerText = currentQuizData.a;
+  optionBRef.innerText = currentQuizData.b;
+  optionCRef.innerText = currentQuizData.c;
+  optionDRef.innerText = currentQuizData.d;
+  displayQuestionNumberRef.innerHTML = `<h1>Question ${questionNumber} of ${questions.length}</h1>`;
 }
 
 // Credit to https://www.youtube.com/watch?v=LxQK4F0xwmU to randomize array elements
-
 function shuffle(questions) {
-    for (let i = questions.length - 1; i > 0; i--) {
-        let randomNumber = Math.floor(Math.random() * (i + 1));
-        let randomQuestion = questions[i];
-        questions[i] = questions[randomNumber];
-        questions[randomNumber] = randomQuestion;
-    }
-    return questions;
+  for (let i = questions.length - 1; i > 0; i--) {
+    let randomNumber = Math.floor(Math.random() * (i + 1));
+    let randomQuestion = questions[i];
+    questions[i] = questions[randomNumber];
+    questions[randomNumber] = randomQuestion;
+  }
+  return questions;
 }
 
 /**
@@ -85,8 +88,8 @@ function shuffle(questions) {
  * after the question is being displayed  
  */
 function deselectAnswers() {
-    answerRef.forEach((answerEl) => (
-        answerEl.checked = false));
+  answerRef.forEach((answerEl) => (
+    answerEl.checked = false));
 }
 
 /**
@@ -94,27 +97,27 @@ function deselectAnswers() {
  * answer was selected by the user
  */
 function getSelected() {
-    let answer;
-    answerRef.forEach((answerEl) => {
-        if (answerEl.checked) {
-            answer = answerEl.id;
-            }
-    });
-    return answer;
+  let answer;
+  answerRef.forEach((answerEl) => {
+    if (answerEl.checked) {
+      answer = answerEl.id;
+    }
+  });
+  return answer;
 }
 
+// Add event listener to the answer submit button 
 submitBtnRef.addEventListener("click", () => {
-    const answer = getSelected();
-    if (answer) {
-        checkAnswer(answer);
-        updateQuizStatistics();
-        /*let quizLenght =  (currentQuiz < data.length) ? loadQuiz(): displayQuizSummary();*/
-        if (currentQuiz < questions.length) {
-            loadQuiz();
-        } else {
-            displayQuizSummary();
-        }
+  const answer = getSelected();
+  if (answer) {
+    checkAnswer(answer);
+    updateQuizStatistics();
+    if (currentQuiz < questions.length) {
+      loadQuiz();
+    } else {
+      displayQuizSummary();
     }
+  }
 });
 
 /**
@@ -123,10 +126,10 @@ submitBtnRef.addEventListener("click", () => {
  * answered question
  */
 function updateQuizStatistics() {
-    document.querySelector('#correct-answers').innerHTML = correctAnswers;
-    document.querySelector('#correct-answers').style.color = "#088308";
-    document.querySelector('#incorrect-answers').innerHTML = incorrectAnswers;
-    document.querySelector('#incorrect-answers').style.color = "#D10F0F";
+  document.querySelector('#correct-answers').innerHTML = correctAnswers;
+  document.querySelector('#correct-answers').style.color = "#088308";
+  document.querySelector('#incorrect-answers').innerHTML = incorrectAnswers;
+  document.querySelector('#incorrect-answers').style.color = "#D10F0F";
 }
 
 /**
@@ -135,20 +138,20 @@ function updateQuizStatistics() {
  * answered question
  */
 function displayQuizSummary() {
-    quizSummaryRef.classList.remove('hide-content');
-    quizRef.classList.add('hide-content');
-    if (score == 0) {
-        quizCompletionInfo.innerHTML = "Oops..";
-        quizResultsRef.innerHTML = `
+  quizSummaryRef.classList.remove('hide-content');
+  quizRef.classList.add('hide-content');
+  if (score == 0) {
+    quizCompletionInfo.innerHTML = "Oops..";
+    quizResultsRef.innerHTML = `
       <h2>None of the questions were answered correctly.</h2>
 <button onclick = "location.reload()">Try again</button>
       `;
-    } else {
-        quizResultsRef.innerHTML = `
+  } else {
+    quizResultsRef.innerHTML = `
       <h2>You have answered ${score} of ${questions.length} questions correctly.</h2>
 <button onclick = "location.reload()">Try again</button>
       `;
-    }
+  }
 }
 
 /**
@@ -157,13 +160,13 @@ function displayQuizSummary() {
  * and update the quiz variables
  */
 function checkAnswer(answer) {
-    if (answer === questions[currentQuiz].correct) {
-        score++;
-        correctAnswers++;
-    } else {
-        incorrectAnswers++;
-    }
-    currentQuiz++;
-    questionNumber++;
-    return;
+  if (answer === questions[currentQuiz].correct) {
+    score++;
+    correctAnswers++;
+  } else {
+    incorrectAnswers++;
+  }
+  currentQuiz++;
+  questionNumber++;
+  return;
 }
