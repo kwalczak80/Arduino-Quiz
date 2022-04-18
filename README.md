@@ -351,7 +351,7 @@
   <p>The rules of the quiz were formulated as simply as possible so they would be understandable by everyone. The rules are presented as a 6-point list.
   <p>These rules are displayed each time when the quiz starts.</p>
   <li><strong>Testing</strong></li>
-  <p>After creating the rules for the quiz, I decided to ask my friends to check if they were clear and understandable so that there was no doubt about their meaning.</p>
+  <p>After creating the rules for the quiz, I decided to ask my friends to check if the quiz rules are clear and understandable so that there was no doubt about their meaning.</p>
   <li><strong>Result</strong></li>
   <p>The opinions received from people checking the rules of the quiz were very positive, so I believe that the user is fully informed about the course of the quiz.</p>
   <li><strong>Verdict</strong></li>
