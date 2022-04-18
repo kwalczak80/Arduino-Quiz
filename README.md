@@ -164,8 +164,7 @@
 <ul>
   <li>Introduce different levels of the quiz, i.e., easy, moderate, and expert – where users with different experiences can choose the quiz they want to take.</li>
   <li>To have a minimum of 30 questions for each category mentioned above.</li>
-  <li>To have all quiz questions in separate files (easier maintenance, update, etc.)</li>
-  <li>To have local storage implemented to save the user quiz results along with the leader board section, which can show the highest results for each quiz category.</li>
+  <li>To have local storage implemented to save the user quiz results along with the leader board section, which can display the highest results for each quiz category.</li>
   <li>To have a functionality where the question-related picture is displayed on the screen. See the example below.</li>
 
   ![Feature to be implemented](docs/screenshots/feature-to-be-implemented.png "Feature to be implemented")    
