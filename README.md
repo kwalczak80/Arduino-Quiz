@@ -76,6 +76,7 @@
 <ul>
   <li>After creating a color scheme with <a href="https://coolors.co/">Coolors</a>, I used the <a href="https://coolors.co/contrast-checker/1e1e1e-6ab6f3">contrast checker</a> to make sure that the contrast is sufficient and there are no issues with readability.</li>
   <ul>
+  <li>#00040C - this color will appear as the primary background color if the background video is taking a long time to load or if it never loads.</li>
   <li>#1E1E1E – color was used for all the text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
   <li>#17608A - color was used as a background for all the buttons used on the website.</li>
   <li>#F7F7F7 - color was used to display the text information on the buttons.</li>
