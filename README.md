@@ -303,7 +303,7 @@
 <h2>Validator Testing</h2>
 <ul>
   <li>HTML - when using the official <a href="https://validator.w3.org/"> W3C Validator</a>, no errors or warnings were found during the code validation process.</li>
-  
+
   ![HTML validator check results](docs/screenshots/html-validator-check.png "HTML validator check results") 
   <li>CSS - when using the official <a href="https://jigsaw.w3.org/css-validator/"> (Jigsaw) Validator.</a>, no errors or warnings were found during the code validation process.</li>
 
@@ -316,8 +316,10 @@
 <p>The Lighthouse tool was used to assess the website's accessibility and the results are shown below.</p>
 <ul>
   <li>Mobile</li>
+
   ![Lighthouse testing mobile](docs/screenshots/lighthouse-testing-mobile.png "Lighthouse testing mobile")
   <li>Desktop</li>
+  
   ![Lighthouse testing desktop](docs/screenshots/lighthouse-testing-desktop.png "Lighthouse testing desktop")
 </ul>
 <hr>
