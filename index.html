@@ -1,118 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Arduino Quiz">
-    <meta name="author" content="Krzysztof Walczak">
-    <meta name="keywords" content="Arduino, quiz, knowledge, check, Uno, Nano, Lillypad, Leonardo, Mega, Due">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Arduino quiz</title>
-</head>
-
-<body>
-    <main id="main-container">
-        <!--Welcome section-->
-        <section id="home">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Arduino Quiz">
+      <meta name="author" content="Krzysztof Walczak">
+      <meta name="keywords" content="Arduino, quiz, knowledge, check, Uno, Nano, Lillypad, Leonardo, Mega, Due">
+      <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title>Arduino quiz</title>
+   </head>
+   <body>
+      <main id="main-container">
+         <!--Welcome section-->
+         <section id="home">
             <div class="container">
-                <h1 class="text-center quiz-name">Arduino Quiz</h1>
-                <h2 class="text-center">Let's see how much do you know about the Arduino microcontroller?</h2>
-                <h3 class="text-center">But before we start, please enter your name below.</h3>
-                <div>
-                    <form id="playername-form" class="flex-center flex-column">
-                        <label for="playername"></label>
-                        <input type="text" id="playername" class="text-center" name="playername"
-                            pattern="[a-zA-Z][a-zA-Z  ]{1,}" placeholder="Your Name" required>
-                        <button type="submit" id="submit-button">Submit</button>
-                    </form>
-                </div>
+               <h1 class="text-center quiz-name">Arduino Quiz</h1>
+               <h2 class="text-center">Let's see how much do you know about the Arduino microcontroller?</h2>
+               <h3 class="text-center">But before we start, please enter your name below.</h3>
+               <div>
+                  <form id="playername-form" class="flex-center flex-column">
+                     <label for="playername"></label>
+                     <input type="text" id="playername" class="text-center" name="playername"
+                        pattern="[a-zA-Z][a-zA-Z  ]{1,}" placeholder="Your Name" required>
+                     <button type="submit" id="submit-button">Submit</button>
+                  </form>
+               </div>
             </div>
-        </section>
-        <!--Quiz rules section-->
-        <section id="quiz-rules" class="container hide-content">
+         </section>
+         <!--Quiz rules section-->
+         <section id="quiz-rules" class="container hide-content">
             <div class="flex-column">
-                <h1 id="player" class="text-center">Player Name</h1>
-                <h2 class="text-center">Rules of this quiz are very simple:</h2>
-                <ul id="list-of-rules">
-                    <li class="rule-text">During the quiz, you will be asked to answer ten questions related to the Arduino microcontroller with four possible answers to each question.</li>
-                    <li class="rule-text">Select the answer you think is the correct answer.</li>
-                    <li class="rule-text">Each question must be answered to move to the next question.</li>
-                    <li class="rule-text">Once the answer is selected hit the <strong>Submit </strong>button to move to the next
-                        question.</li>
-                    <li class="rule-text">You can check your answers in the scoreboard under the submit button after you answer the
-                        question.</li>
-                    <li class="rule-text">Remember - there are no time restrictions so take as much time as you need to to complete this
-                        quiz.</li>
-                    <li class="rule-text">Best of luck !!</li>
-                </ul>
-                <div class="flex-center">
-                    <button type="button" aria-label="Quiz start button" id="quiz-start">I understand. Let's
-                        play</button>
-                </div>
+               <h1 id="player" class="text-center">Player Name</h1>
+               <h2 class="text-center">Rules of this quiz are very simple:</h2>
+               <ul id="list-of-rules">
+                  <li class="rule-text">During the quiz, you will be asked to answer ten questions related to the Arduino microcontroller with four possible answers to each question.</li>
+                  <li class="rule-text">Select the answer you think is the correct answer.</li>
+                  <li class="rule-text">Each question must be answered to move to the next question.</li>
+                  <li class="rule-text">Once the answer is selected hit the <strong>Submit </strong>button to move to the next
+                     question.
+                  </li>
+                  <li class="rule-text">You can check your answers in the scoreboard under the submit button after you answer the
+                     question.
+                  </li>
+                  <li class="rule-text">Remember - there are no time restrictions so take as much time as you need to to complete this
+                     quiz.
+                  </li>
+                  <li class="rule-text">Best of luck !!</li>
+               </ul>
+               <div class="flex-center">
+                  <button type="button" aria-label="Quiz start button" id="quiz-start">I understand. Let's
+                  play</button>
+               </div>
             </div>
-        </section>
-        <!--Quiz section-->
-        <section id="quiz" class="container hide-content">
+         </section>
+         <!--Quiz section-->
+         <section id="quiz" class="container hide-content">
             <div>
-                <div class="quiz-header">
-                    <div id="question-number" class="text-center">
-                        <h1>Question Number</h1>
-                    </div>
-
-                    <h2 id="question">Display Question</h2>
-                    <ul id="options">
-                        <li>
-                            <input class="answer" type="radio" name="answer" id="a">
-                            <label class="possible-answer" for="a" id="option-a">Option A</label>
-                        </li>
-                        <li>
-                            <input class="answer" type="radio" name="answer" id="b">
-                            <label class="possible-answer" for="b" id="option-b">Option B</label>
-                        </li>
-                        <li>
-                            <input class="answer" type="radio" name="answer" id="c">
-                            <label class="possible-answer" for="c" id="option-c">Option C</label>
-                        </li>
-                        <li>
-                            <input class="answer" type="radio" name="answer" id="d">
-                            <label class="possible-answer" for="d" id="option-d">Option D</label>
-                        </li>
-                    </ul>
-                </div>
-                <div class="flex-center">
-                    <button type="button" aria-label="Submit answer button" id="submit">Submit</button>
-                </div>
-                <div id="score-area" class="flex-row">
-                    <p class="scores">Correct Answers: <span id="correct-answers">0</span></p>
-                    <p class="scores">Incorrect Answers: <span id="incorrect-answers">0</span></p>
-                </div>
+               <div class="quiz-header">
+                  <div id="question-number" class="text-center">
+                     <h1>Question Number</h1>
+                  </div>
+                  <h2 id="question">Display Question</h2>
+                  <ul id="options">
+                     <li>
+                        <input class="answer" type="radio" name="answer" id="a">
+                        <label class="possible-answer" for="a" id="option-a">Option A</label>
+                     </li>
+                     <li>
+                        <input class="answer" type="radio" name="answer" id="b">
+                        <label class="possible-answer" for="b" id="option-b">Option B</label>
+                     </li>
+                     <li>
+                        <input class="answer" type="radio" name="answer" id="c">
+                        <label class="possible-answer" for="c" id="option-c">Option C</label>
+                     </li>
+                     <li>
+                        <input class="answer" type="radio" name="answer" id="d">
+                        <label class="possible-answer" for="d" id="option-d">Option D</label>
+                     </li>
+                  </ul>
+               </div>
+               <div class="flex-center">
+                  <button type="button" aria-label="Submit answer button" id="submit">Submit</button>
+               </div>
+               <div id="score-area" class="flex-row">
+                  <p class="scores">Correct Answers: <span id="correct-answers">0</span></p>
+                  <p class="scores">Incorrect Answers: <span id="incorrect-answers">0</span></p>
+               </div>
             </div>
-        </section>
-        <!--Quiz summary section-->
-        <section id="summary" class="container hide-content">
+         </section>
+         <!--Quiz summary section-->
+         <section id="summary" class="container hide-content">
             <div class="text-center flex-center flex-column">
-                <h1 id="quiz-completion">Congratulations</h1>
-                <div id="quiz-summary">
-                    <h2>Quiz Score</h2>
-                </div>
-                <div id="quiz-summary-information">
-                    <p>If you want to take the quiz again, click the button above.</p>
-                    <p>Alternatively, you can click the icon below if you want to learn more about Arduino.</p>
-                    <a href="https://www.arduino.cc" title="Official Arduino website" target="_blank" rel="noopener"><img src="assets/images/arduino-icon.png" 
-                            aria-label="Visit official Arduino website" alt="arduino icon"></a>
-                </div>
+               <h1 id="quiz-completion">Congratulations</h1>
+               <div id="quiz-summary">
+                  <h2>Quiz Score</h2>
+               </div>
+               <div id="quiz-summary-information">
+                  <p>If you want to take the quiz again, click the button above.</p>
+                  <p>Alternatively, you can click the icon below if you want to learn more about Arduino.</p>
+                  <a href="https://www.arduino.cc" title="Official Arduino website" target="_blank" rel="noopener"><img src="assets/images/arduino-icon.png" 
+                     aria-label="Visit official Arduino website" alt="arduino icon"></a>
+               </div>
             </div>
-        </section>
-    </main>
-    <!--Background video-->
-    <video autoplay muted loop id="background-video">
-        <source src="assets/images/background-video.mp4" type="video/mp4">
-    </video>
-    <!--JavaScript script.js at end of the document body for optimized loading-->
-    <script src="assets/js/script.js"></script>
-</body>
-
+         </section>
+      </main>
+      <!--Background video-->
+      <video autoplay muted loop id="background-video">
+         <source src="assets/images/background-video.mp4" type="video/mp4">
+      </video>
+      <!--JavaScript script.js at end of the document body for optimized loading-->
+      <script src="assets/js/script.js"></script>
+   </body>
 </html>
