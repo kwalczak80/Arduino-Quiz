@@ -120,11 +120,12 @@
   </ul>
   <li>The quiz is navigated question by question.</li>
   <li>Each question must be answered to move to the next question.</li>
+  <li>At the beginning of the quiz, all answers are deselected.</li>
   <li>To answer the question the user must select their choice by using the radio button and clicking the <strong>Submit</strong> button in order to submit the answer.</li>
 </ul>
 
 ![Quiz questions](docs/screenshots/quiz-section.png "Quiz questions")
-<li>The score area provides information to the user about their progress through the quiz. If the question they answered is correct the count of correctly answered questions will increase (highlighted in green). If the question is answered incorrectly the count of incorrectly answered will increase (highlighted in red). </li>
+<li>The score area provides information to the user about their progress through the quiz. If the question they answered is correct the count of correctly answered questions will increase (highlighted in green). If the question is answered incorrectly the count of incorrectly answered questions will increase (highlighted in red).</li>
 
 ![Score area](docs/screenshots/score-area.png "Score area")
 <li>Note that at the beginning of the quiz when no question is answered yet, the quiz results text has the inherited text color. After the first question is answered by the user the quiz results text color will automatically change to green and red respectively.</li>
