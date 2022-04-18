@@ -136,6 +136,8 @@
 <h2>Error handling</h2>
 <ul>
 <li>If the quiz questions cannot be loaded correctly, an error message will appear on the screen to inform the user about this fact.</li>
+<li>To test this functionality, I changed the JSON file name from "questions.json" to "question.json" to simulate a problem with accessing the questions file.</li>
+<li>An error message was displayed on the screen as expected.</li>
 </ul>
 
 ![Error message](docs/screenshots/error-message.png "Error message")
