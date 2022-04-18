@@ -2,6 +2,7 @@
 
 /*General settings*/
 :root {
+    --primary-background-color: #00040c;
     --primary-text-color: #1e1e1e;
     --gradient-color-top: #5ef3e4;
     --gradient-color-bottom: #6ab6f3;
@@ -24,6 +25,7 @@
   }
 
   body {
+    background-color: var(--primary-background-color);
     color: var(--primary-text-color);
     font-family: "Roboto", sans-serif;
     font-size: 1.6rem;
