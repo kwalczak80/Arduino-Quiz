@@ -76,13 +76,13 @@
 <ul>
   <li>After creating a color scheme with <a href="https://coolors.co/">Coolors</a>, I used the <a href="https://coolors.co/contrast-checker/1e1e1e-6ab6f3">contrast checker</a> to make sure that the contrast is sufficient and there are no issues with readability.</li>
   <ul>
-  <li>#00040C - color will appear as the primary background color if the background video is taking a long time to load or if it never loads for any reason.</li>
-  <li>#1E1E1E – color was used for all the text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
-  <li>#17608A - color was used as a background for all the buttons used on the website.</li>
-  <li>#F7F7F7 - color was used to display the text information on the buttons.</li>
-  <li>#088308 - color was used to display the number of correctly answered questions.</li>
-  <li>#D10F0F - color was used to display the number of incorrectly answered questions.</li>
-  <li>#CECFE27E - color was used as a background for the player name input field.</li>
+    <li>#00040C - color will appear as the primary background color if the background video is taking a long time to load or if it never loads for any reason.</li>
+    <li>#1E1E1E – color was used for all the text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
+    <li>#17608A - color was used as a background for all the buttons used on the website.</li>
+    <li>#F7F7F7 - color was used to display the text information on the buttons.</li>
+    <li>#088308 - color was used to display the number of correctly answered questions.</li>
+    <li>#D10F0F - color was used to display the number of incorrectly answered questions.</li>
+    <li>#CECFE27E - color was used as a background for the player name input field.</li>
   </ul>
 </ul>
 <hr>
@@ -136,9 +136,9 @@
 ![Score area layout on smaller screens](docs/screenshots/score-area-layout-on-smaller-screens.png "Score area layout on smaller screens")
 <h2>Error handling</h2>
 <ul>
-<li>If the quiz questions cannot be loaded correctly, an error message will appear on the screen to inform the user about this fact.</li>
-<li>To test this functionality, I changed the JSON file name from "questions.json" to "question.json" to simulate a problem with accessing the questions file.</li>
-<li>An error message was displayed on the screen as expected.</li>
+  <li>If the quiz questions cannot be loaded correctly, an error message will appear on the screen to inform the user about this fact.</li>
+  <li>To test this functionality, I changed the JSON file name from "questions.json" to "question.json" to simulate a problem with accessing the questions file.</li>
+  <li>An error message was displayed on the screen as expected.</li>
 </ul>
 
 ![Error message](docs/screenshots/error-message.png "Error message")
@@ -195,7 +195,6 @@
   </ul>
 </ul>
 <hr>
-
 # **Tools**
 <ul>
   <li><a href="https://balsamiq.com/">Balsamiq</a></li>
@@ -303,23 +302,18 @@
 <h2>Validator Testing</h2>
 <ul>
   <li>HTML - when using the official <a href="https://validator.w3.org/"> W3C Validator</a>, no errors or warnings were found during the code validation process.</li>
-
   ![HTML validator check results](docs/screenshots/html-validator-check.png "HTML validator check results") 
   <li>CSS - when using the official <a href="https://jigsaw.w3.org/css-validator/"> (Jigsaw) Validator.</a>, no errors or warnings were found during the code validation process.</li>
-
   ![CSS validator check results](docs/screenshots/css-validator-check.png "CSS validator check results")
   <li>JSHint - when using the official <a href="https://jshint.com/"> JavaScript Code Quality Tool</a> I discovered missing semi-colons on lines 56, 57. This issue was corrected immediately. No other warnings or errors are presented.</li>
-
   ![JSHint validator check results](docs/screenshots/jshint-validator-testing.png "JSHint validator check results")
 </ul>
 <h2>Lighthouse testing</h2>
 <p>The Lighthouse tool was used to assess the website's accessibility and the results are shown below.</p>
 <ul>
   <li>Mobile</li>
-
   ![Lighthouse testing mobile](docs/screenshots/lighthouse-testing-mobile.png "Lighthouse testing mobile")
   <li>Desktop</li>
-
   ![Lighthouse testing desktop](docs/screenshots/lighthouse-testing-desktop.png "Lighthouse testing desktop")
 </ul>
 <hr>
@@ -351,7 +345,7 @@
   <p>The rules of the quiz were formulated as simply as possible so they would be understandable by everyone. The rules are presented as a 6-point list.
   <p>These rules are displayed each time when the quiz starts.</p>
   <li><strong>Testing</strong></li>
-  <p>After creating the rules for the quiz, I decided to ask my friends to check if the quiz rules are clear and understandable so that there was no doubt about their meaning.</p>
+  <p>After creating the rules for the quiz, I decided to ask my friends to check if the quiz rules were clear and understandable so that there was no doubt about their meaning.</p>
   <li><strong>Result</strong></li>
   <p>The opinions received from people checking the rules of the quiz were very positive, so I believe that the user is fully informed about the course of the quiz.</p>
   <li><strong>Verdict</strong></li>
@@ -375,7 +369,7 @@
 <h3>As a user, I would like to know when the quiz is complete.</h3>
 <ul>
   <li><strong>Plan</strong></li>
-  <p> Show the information with a quiz summary to the user</p>
+  <p> Show the information with a quiz summary to the user.</p>
   <li><strong>Implementation</strong></li>
   <p>Once the user has answered all the questions, a new section will be displayed on the screen. In this section, the user will be informed that the quiz is over and how many questions have been answered correctly.</p>
   <li><strong>Testing</strong></li>
@@ -416,7 +410,7 @@
 # **Bugs**
 <h3>Solved bugs</h3>
 <ul>
-<li>The bug I encountered was related to incorrectly placed link closing tags in the HTML file. This prevented the Arduino website from opening in a new tab. The issue was fixed immediately following the code review.</li>
+  <li>The bug I encountered was related to incorrectly placed link closing tags in the HTML file. This prevented the Arduino website from opening in a new tab. The issue was fixed immediately following the code review.</li>
 </ul>
 <h3>Other known bugs</h3>
 <h4>uncaught (in promise) error: the message port closed before a response was received</h4>
