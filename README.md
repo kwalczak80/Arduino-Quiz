@@ -106,7 +106,7 @@
 <ul>
   <li>To personalize the user experience the section with quiz rules is displayed using the user name entered on the welcome screen.</li>
   <li>The quiz rules are clearly explained to the user and are grouped as a list.</li>
-  <li>Once the user is familiar with the quiz rules they are invited to click on the <strong>“I understand. Let’s play”</strong> button in order to start the quiz. </li>
+  <li>Once the user is familiar with the quiz rules they are invited to click on the <strong>I understand. Let’s play</strong> button in order to start the quiz. </li>
 </ul>
 
 ![Quiz rules](docs/screenshots/quiz-rules-section.png "Quiz rules")
