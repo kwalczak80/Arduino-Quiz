@@ -76,7 +76,7 @@
 <ul>
   <li>After creating a color scheme with <a href="https://coolors.co/">Coolors</a>, I used the <a href="https://coolors.co/contrast-checker/1e1e1e-6ab6f3">contrast checker</a> to make sure that the contrast is sufficient and there are no issues with readability.</li>
   <ul>
-  <li>#00040C - this color will appear as the primary background color if the background video is taking a long time to load or if it never loads.</li>
+  <li>#00040C - color will appear as the primary background color if the background video is taking a long time to load or if it never loads for any reason.</li>
   <li>#1E1E1E – color was used for all the text information being displayed on the website. A contrast checker was also used in this case to make sure that the text and background colors do not create issues with website readability.</li>
   <li>#17608A - color was used as a background for all the buttons used on the website.</li>
   <li>#F7F7F7 - color was used to display the text information on the buttons.</li>
@@ -88,7 +88,7 @@
 <hr>
 
 # **Site Structure**
-<p>This website is designed to be a one-page site. Based on the user activity, relevant sections of the website are being shown or hidden. This is done when the user clicks on the button in order to proceed through the quiz. To start the quiz user must first enter their name which will be then populated on the welcome screen where the rules of the quiz are displayed. Once the user is familiar with the rules, they can hit the “I understand. Let’s play” button to start the quiz. Questions are presented one by one with the current question number shown on the screen. In order to move to the next question, the current question must be answered. The scoring area helps the user to track which questions were answered correctly and which were not. Upon completion of the quiz, a summary of correctly answered questions is displayed on the screen. At this point, the user has two choices; to do the quiz again by clicking on the <strong>Try again</strong> button or to visit the Arduino official website by clicking on the Arduino icon. This will open the Arduino official website in a new tab.</p>
+<p>This website is designed to be a one-page site. Based on the user activity, relevant sections of the website are being shown or hidden. This is done when the user clicks on the button in order to proceed through the quiz. To start the quiz user must first enter their name which will be then populated on the welcome screen where the rules of the quiz are displayed. Once the user is familiar with the rules, they can hit the <strong>I understand. Let’s play</strong> button to start the quiz. Questions are presented one by one with the current question number shown on the screen. In order to move to the next question, the current question must be answered. The scoring area helps the user to track which questions were answered correctly and which were not. Upon completion of the quiz, a summary of correctly answered questions is displayed on the screen. At this point, the user has two choices; to do the quiz again by clicking on the <strong>Try again</strong> button or to visit the Arduino official website by clicking on the Arduino icon. This will open the Arduino official website in a new tab.</p>
 <hr>
 
 # **Features**
