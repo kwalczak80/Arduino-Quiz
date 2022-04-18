@@ -167,7 +167,7 @@
 <ul>
   <li>Introduce different levels of the quiz, i.e., easy, moderate, and expert – where users with different experiences can choose the quiz they want to take.</li>
   <li>Have a minimum of 30 questions for each category mentioned above.</li>
-  <li>Have local storage implemented to save the user quiz results</li>
+  <li>Have local storage implemented to save the user quiz results.</li>
   <li>Have a leaderboard section where the user can find the highest scores for each quiz category.</li>
   <li>Have a functionality where the question-related picture is displayed on the screen. See the example below.</li>
 
@@ -254,13 +254,13 @@
 <ul>
   <li><a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation Service</a></li>
   <ul>
-    <li>The tool was used to validate CSS code</li>
+    <li>The tool was used to validate CSS code.</li>
   </ul>
 </ul>
 <ul>
-  <li><a href="https://jigsaw.w3.org/">Jigsaw</a></li>
+  <li><a href="https://jshint.com/">JSHint</a></li>
   <ul>
-    <li>The tool was used to validate Javascript code</li>
+    <li>The tool was used to validate Javascript code.</li>
   </ul>
 </ul>
 <ul>
@@ -273,6 +273,12 @@
   <li><a href="https://responsivedesignchecker.com/"> Responsive Web Design Checker</a></li>
   <ul>
     <li>Another tool that offers more screen options to test the website responsiveness.</li>
+  </ul>
+</ul>
+<ul>
+  <li><a href="https://beautifier.io/">Beautifier</a></li>
+  <ul>
+    <li>The tool that to format javascript file to the required standart.</li>
   </ul>
 </ul>
 <hr>
