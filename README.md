@@ -278,7 +278,7 @@
 <ul>
   <li><a href="https://beautifier.io/">Beautifier</a></li>
   <ul>
-    <li>The tool that to format javascript file to the required standart.</li>
+    <li>The tool used to format the javascript file to the required format. </li>
   </ul>
 </ul>
 <hr>
