@@ -44,7 +44,7 @@ quizStartButtonRef.addEventListener('click', function() {
   quizRef.classList.remove('hide-content');
 });
 
-//Pull questions from questions.json file
+//Pull questions from the questions.json file and start the quiz
 fetch('./assets/data/questions.json')
   .then(res => res.json())
   .then(data => {
