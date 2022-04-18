@@ -410,6 +410,11 @@
 <ul>
 <li>The bug I encountered was related to incorrectly placed link closing tags in the HTML file. This prevented the Arduino website from opening in a new tab. The issue was fixed immediately following the code review.</li>
 </ul>
+<h3>Other known bugs</h3>
+<h4>uncaught (in promise) error: the message port closed before a response was received</h4>
+<li>I encountered this problem just before my project submission. My search for more information related to this error led me to find that some chrome extensions are causing this problem. Following the instructions found on <a href="https://dev-qa.com/2666546/error-uncaught-promise-chrome-what-this-error-and-how-do-fix"> dev-qa.com</a>, I disabled all the installed extensions in my chrome browser and then enabled each extension one by one to see which one was causing the problem.</li>
+<li>I found that a recent extension I installed was the culprit. After disabling this extension, the problem was eliminated.</li>
+<li>To verify that the website is working properly, I performed additional tests when the error was presented. After performing numerous tests, I can confirm that the functionality of the website was not impacted in any way. </li>
 
 # **Media**
 <ul>
